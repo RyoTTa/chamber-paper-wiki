@@ -61,6 +61,7 @@ Memory security research covers memory encryption, trusted execution environment
 - [improving-the-performance-and-endurance-of-encrypted-non-volatile-main-memory-through-deduplicating-writes.md]
 - [hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md]
 - [guaranteeing-local-differential-privacy-on-ultra-low-power-systems.md]
+- [synergy-rethinking-secure-memory-design-for-error-correcting-memories.md]
 
 ## Cross-references
 

@@ -2,6 +2,12 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-26] ingest | HPCA 2018 | SYNERGY: Rethinking Secure-Memory Design for Error-Correcting Memories
+- Created paper summary: `paper-summaries/2018HPCA-summarize/synergy-rethinking-secure-memory-design-for-error-correcting-memories.md`
+- Created wiki page: `paper-wiki/papers/synergy-rethinking-secure-memory-design-for-error-correcting-memories.md`
+- Updated concepts: security, dram
+- Tags: security, dram, ecc, mac, secure-memory, chipkill
+
 ## [2026-06-26] ingest | ISCA 2018 | SEESAW: Using Superpages to Improve VIPT Caches
 - Created paper summary: `paper-summaries/2018ISCA-summarize/seesaw-using-superpages-to-improve-vipt-caches.md`
 - Created wiki page: `paper-wiki/papers/seesaw-using-superpages-to-improve-vipt-caches.md`
@@ -531,3 +537,9 @@
 - Created wiki page: `paper-wiki/papers/record-replay-architecture-as-a-general-security-framework.md`
 - Updated concepts: security
 - Tags: security, record-replay, hardware-security, rop, virtualization
+
+## [2026-06-26] ingest | HPCA 2018 | Reliability-Aware Data Placement for Heterogeneous Memory Architecture
+- Created paper summary: `paper-summaries/2018HPCA-summarize/reliability-aware-data-placement-for-heterogeneous-memory-architecture.md`
+- Created wiki page: `paper-wiki/papers/reliability-aware-data-placement-for-heterogeneous-memory-architecture.md`
+- Updated concepts: hybrid-memory, dram, memory-tiering
+- Tags: heterogeneous-memory, reliability, data-placement, avf, hotness-risk-quadrant

@@ -41,6 +41,7 @@ DRAM (Dynamic Random Access Memory) is the primary main memory technology in mod
 
 ### DRAM Reliability and ECC
 - **DUO**: 온칩 중복성의 이중 활용으로 IECC 비효율성 해결 — IECC 대비 평균 2-3% 성능 저하 수준, 평균 4-14% 낮은 에너지 소비, 높은 신뢰성 달성 ([paper-summaries/2018HPCA-summarize/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md])
+- **SYNERGY**: ECC-DIMM의 9번째 칩에 MAC 통합으로 보안-신뢰성 공동 설계 — 추가 하드웨어 없이 20% 속도 향상, 31% EDP 감소, 185배 신뢰성 향상 ([paper-summaries/2018HPCA-summarize/synergy-rethinking-secure-memory-design-for-error-correcting-memories.md])
 - **CAT (Counter-based Adaptive Tree)**: 메모리 접근 패턴에 따라 카운터 분포를 동적으로 조정하여 wordline crosstalk 완화 — 갱신 전력 오버헤드를 SCA 21%, Probabilistic 18%에서 CAT 7%로 감소, 성능 오버헤드 ~0.5% ([paper-summaries/2018ISCA-summarize/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md])
 
 ### DRAM Parallelism and Resource Management
@@ -57,6 +58,7 @@ DRAM (Dynamic Random Access Memory) is the primary main memory technology in mod
 - [figaro-improving-system-performance-via-fine-grained-in-dram-data-relocation-and-caching.md] ??In-DRAM data relocation
 - [dve-improving-dram-reliability-and-performance-on-demand-via-coherent-replication.md] ??Coherent replication for DRAM reliability
 - [farewell-my-shared-llc-a-case-for-private-die-stacked-dram-caches-for-servers.md] ??Die-stacked DRAM for private LLC
+- [synergy-rethinking-secure-memory-design-for-error-correcting-memories.md] ??Security-reliability co-design for ECC-DIMM
 
 ## Cross-references
 

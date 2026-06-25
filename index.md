@@ -18,6 +18,7 @@
 - [[paper-wiki/concepts/cache.md|Cache]] ??Caching policy, prefetching, replacement, LLC
 - [[paper-wiki/concepts/security.md|Security]] ??Memory encryption, trusted execution, RowHammer, side channels
 - [[paper-wiki/concepts/memory-tiering.md|Memory Tiering]] ??Disaggregated memory, CXL, NUMA, far memory
+- [[paper-wiki/concepts/hybrid-memory.md|Hybrid Memory]] ??Heterogeneous memory combining DRAM+NVM for cost-performance
 - [[paper-wiki/concepts/nvm.md|Non-Volatile Memory]] ??Persistent memory, PMEM, storage-class memory
 - [[paper-wiki/concepts/compression.md|Compression]] ??Memory compression, data reduction, encoding
 - [[paper-wiki/concepts/gpu.md|GPU]] ??GPU architecture, memory management, multi-tenancy
@@ -87,6 +88,7 @@
 - [[paper-wiki/papers/heatwatch-improving-3d-nand-flash-memory-device-reliability-by-exploiting-self-recovery-and-temperature-awareness.md|HeatWatch]] ??3D NAND 플래시에서 self-recovery 및 온도 효과 특성화 — 새로운 신뢰성 모델(오차 4.9%)로 플래시 수명 3.85배 향상 (HPCA '18)
 - [[paper-wiki/papers/making-memristive-neural-network-accelerators-reliable.md|Memristive Neural Network Accelerators]] ??산술 코드 기반 오류 수정으로 memristive 신경망 가속기 신뢰성 확보 — 영역 4.5% 미만, 에너지 4.7% 미만 오버헤드 (HPCA '18)
 - [[paper-wiki/papers/outerspace-an-outer-product-based-sparse-matrix-multiplication-accelerator.md|OuterSPACE]] ??외적 기반 희소 행렬 곱셈 가속기 — Intel MKL 대비 7.9배, cuSPARSE 대비 13.0배 속도 향상 (HPCA '18)
+- [[paper-wiki/papers/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md|LATTE-CC]] ??GPU 레이턴시 내성 활용 적응형 캐시 압축 — 최대 48.4% 성능 향상, 에너지 10% 절감 (HPCA '18)
 - [[paper-wiki/papers/profess-a-probabilistic-hybrid-main-memory-management-framework-for-high-performance-and-fairness.md|ProFess]] ??하이브리드 메인 메모리 관리를 위한 확률론적 프레임워크 — 공정성 15% 향상, 성능 12% 향상 (HPCA '18)
 - [[paper-wiki/papers/rcoal-mitigating-gpu-timing-attack-via-subwarp-based-randomized-coalescing-techniques.md|RCoal]] ??GPU 타이밍 공격 완화를 위한 서브워프 기반 무작위화된 코얼레싱 기법 — 24~961배 보안 향상 (HPCA '18)
 - [[paper-wiki/papers/record-replay-architecture-as-a-general-security-framework.md|Record-Replay Architecture]] ??RnR을 하드웨어 보안 기능을 보완하는 새로운 프레임워크 — 효율적이고 유연한 보안 메커니즘 (HPCA '18)
@@ -98,9 +100,12 @@
 - [[paper-wiki/papers/guaranteeing-local-differential-privacy-on-ultra-low-power-systems.md|DP-Box]] ??ULP 시스템에서의 LDP 구현 — Resampling/Thresholding으로 저해상도 제약 극복 (ISCA '18)
 - [[paper-wiki/papers/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md|Blinking]] ??정보 유출의 시간적 비균일성 활용 방어 — 15~30% 보호로 75%+ mutual information 차단 (ISCA '18)
 - [[paper-wiki/papers/compressing-dma-engine-leveraging-activation-sparsity-for-training-deep-neural-networks.md|cDMA]] ??activation sparsity 활용 압축 DMA 엔진 — 평균 2.6× 압축률, 평균 53% 성능 향상 (HPCA '18)
+- [[paper-wiki/papers/synergy-rethinking-secure-memory-design-for-error-correcting-memories.md|SYNERGY]] ??보안-신뢰성 공동 설계로 ECC-DIMM에 MAC 통합 — 추가 하드웨어 없이 20% 속도 향상, 31% EDP 감소, 185배 신뢰성 향상 (HPCA '18)
 - [[paper-wiki/papers/crash-consistency-in-encrypted-non-volatile-main-memory-systems.md|Selective Counter-Atomicity]] ??암호화된 NVMM 시스템에서 crash consistency 최적화 — 1~8코어에서 6~40% 성능 향상 (HPCA '18)
 - [[paper-wiki/papers/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md|DUO]] ??온칩 중복성 이중 활용으로 IECC 비효율성 해결 — 평균 4-14% 낮은 에너지 소비 (HPCA '18)
 - [[paper-wiki/papers/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md|ERUCA]] ??효율적인 서브뱅킹으로 DRAM 리소스 충돌 방지 — 15% 성능 향상, <0.3% 면적 오버헤드 (HPCA '18)
+- [[paper-wiki/papers/reliability-aware-data-placement-for-heterogeneous-memory-architecture.md|Reliability-Aware Data Placement]] ??HMA에서 AVF 기반 hotness-risk quadrant 분석으로 신뢰성 향상 — static 1.6×, dynamic 1.5×, annotation 1.3× reliability 향상 (HPCA '18)
+ 
 
 ## Topic Coverage
 
