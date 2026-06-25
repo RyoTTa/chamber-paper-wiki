@@ -38,6 +38,12 @@ DRAM (Dynamic Random Access Memory) is the primary main memory technology in mod
 - CODIC provides a low-cost substrate for custom in-DRAM functionalities and optimizations ([codic-a-low-cost-substrate-for-enabling-custom-in-dram-functionalities-and-optimizations.md])
 - **SILO**: 다이 스택 DRAM을 활용한 프라이빗 LLC 구현 — 지연 시간 최적화 설계로 45% 지연 시간 감소, 11.5ns 접근 지연 시간 달성 ([farewell-my-shared-llc-a-case-for-private-die-stacked-dram-caches-for-servers.md])
 
+### DRAM Reliability and ECC
+- **DUO**: 온칩 중복성의 이중 활용으로 IECC 비효율성 해결 — IECC 대비 평균 2-3% 성능 저하 수준, 평균 4-14% 낮은 에너지 소비, 높은 신뢰성 달성 ([paper-summaries/2018HPCA-summarize/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md])
+
+### DRAM Parallelism and Resource Management
+- **ERUCA**: 효율적인 서브뱅킹 및 주파수 확장 가능한 DRAM 아키텍처 — 거의 제로의 면적 오버헤드(<0.3%)로 15% 성능 향상 ([paper-summaries/2018HPCA-summarize/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md])
+
 ## Related Papers
 
 - [revisiting-rowhammer-an-experimental-analysis-of-modern-dram-devices-and-mitigation-techniques.md] ??Large-scale DRAM characterization for RowHammer

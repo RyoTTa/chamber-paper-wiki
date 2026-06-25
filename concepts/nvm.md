@@ -34,6 +34,7 @@ Non-Volatile Memory (NVM), also known as persistent memory or storage-class memo
 - **SuperMem**: Application-transparent secure persistent memory ([supermem-enabling-application-transparent-secure-persistent-memory-with-low-overheads.md])
 - **Triad-NVM**: Persistency for integrity-protected encrypted NVMs ([triad-nvm-persistency-for-integrity-protected-and-encrypted-non-volatile-memories.md])
 - **DeWrite**: 암호화된 NVM의 성능과 수명을 향상시키는 중복 제거 기반 쓰기 최적화 — 쓰기 54% 감소, 쓰기 속도 4.2배 향상, IPC 82% 향상 ([improving-the-performance-and-endurance-of-encrypted-non-volatile-main-memory-through-deduplicating-writes.md])
+- **Selective Counter-Atomicity**: 암호화된 NVMM 시스템에서 crash consistency와 메모리 암호화 간의 상호작용 분석 — 선택적 counter-atomicity를 통해 1~8코어 시스템에서 6~40% 성능 향상 ([paper-summaries/2018HPCA-summarize/crash-consistency-in-encrypted-non-volatile-main-memory-systems.md])
 
 ### NVM Architecture
 - **NVDIMM-C**: Byte-addressable NVM module compatible with DDR interfaces ([nvdimm-c-a-byte-addressable-non-volatile-memory-module-for-compatibility-with-standard-ddr-memory-interfaces.md])

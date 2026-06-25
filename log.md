@@ -399,3 +399,27 @@
 - Created wiki page: `paper-wiki/papers/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md`
 - Updated concepts: security
 - Tags: side-channel, power-analysis, computational-blinking, hardware-security
+
+## [2026-06-26] ingest | HPCA 2018 | Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks
+- Created paper summary: `paper-summaries/2018HPCA-summarize/compressing-dma-engine-leveraging-activation-sparsity-for-training-deep-neural-networks.md`
+- Created wiki page: `paper-wiki/papers/compressing-dma-engine-leveraging-activation-sparsity-for-training-deep-neural-networks.md`
+- Updated concepts: dnn-accelerator, compression
+- Tags: dnn-training, memory-compression, activation-sparsity, dma-engine
+
+## [2026-06-26] ingest | HPCA 2018 | Crash Consistency in Encrypted Non-Volatile Main Memory Systems
+- Created paper summary: `paper-summaries/2018HPCA-summarize/crash-consistency-in-encrypted-non-volatile-main-memory-systems.md`
+- Created wiki page: `paper-wiki/papers/crash-consistency-in-encrypted-non-volatile-main-memory-systems.md`
+- Updated concepts: nvm, security
+- Tags: nvmm, crash-consistency, memory-encryption, selective-counter-atomicity
+
+## [2026-06-26] ingest | HPCA 2018 | DUO: Exposing On-chip Redundancy to Rank-Level ECC for High Reliability
+- Created paper summary: `paper-summaries/2018HPCA-summarize/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md`
+- Created wiki page: `paper-wiki/papers/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md`
+- Updated concepts: dram
+- Tags: dram-reliability, ecc, on-chip-redundancy, rank-level-ecc
+
+## [2026-06-26] ingest | HPCA 2018 | ERUCA: Efficient DRAM Resource Utilization and Resource Conflict Avoidance for Memory System Parallelism
+- Created paper summary: `paper-summaries/2018HPCA-summarize/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md`
+- Created wiki page: `paper-wiki/papers/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md`
+- Updated concepts: dram
+- Tags: dram-parallelism, resource-management, subbanking, address-locality

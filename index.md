@@ -84,6 +84,10 @@
 - [[paper-wiki/papers/grafboost-using-accelerated-flash-storage-for-external-graph-analytics.md|GraFBoost]] ??FPGA 기반 플래시 가속 그래프 분석 — 1GB DRAM으로 40억 정점/1280억 엣지 처리 (ISCA '18)
 - [[paper-wiki/papers/guaranteeing-local-differential-privacy-on-ultra-low-power-systems.md|DP-Box]] ??ULP 시스템에서의 LDP 구현 — Resampling/Thresholding으로 저해상도 제약 극복 (ISCA '18)
 - [[paper-wiki/papers/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md|Blinking]] ??정보 유출의 시간적 비균일성 활용 방어 — 15~30% 보호로 75%+ mutual information 차단 (ISCA '18)
+- [[paper-wiki/papers/compressing-dma-engine-leveraging-activation-sparsity-for-training-deep-neural-networks.md|cDMA]] ??activation sparsity 활용 압축 DMA 엔진 — 평균 2.6× 압축률, 평균 53% 성능 향상 (HPCA '18)
+- [[paper-wiki/papers/crash-consistency-in-encrypted-non-volatile-main-memory-systems.md|Selective Counter-Atomicity]] ??암호화된 NVMM 시스템에서 crash consistency 최적화 — 1~8코어에서 6~40% 성능 향상 (HPCA '18)
+- [[paper-wiki/papers/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md|DUO]] ??온칩 중복성 이중 활용으로 IECC 비효율성 해결 — 평균 4-14% 낮은 에너지 소비 (HPCA '18)
+- [[paper-wiki/papers/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md|ERUCA]] ??효율적인 서브뱅킹으로 DRAM 리소스 충돌 방지 — 15% 성능 향상, <0.3% 면적 오버헤드 (HPCA '18)
 
 ## Topic Coverage
 
