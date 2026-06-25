@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, compression, data-reduction, encoding]
-source_count: 11
+source_count: 12
 last_updated: 2026-06-25
 ---
 
@@ -37,6 +37,9 @@ Memory and storage compression research focuses on reducing data footprint to in
 - INT8 quantization of KV tensors for LLM inference (see [[paper-wiki/concepts/llm-inference.md|LLM Inference]])
 - Sparse attention as a form of selective compression
 
+### DNN Training Memory Compression
+- **Gist**: 레이어별 손실/손실 없는 인코딩으로 DNN 학습 메모리 최대 4.1× 절감 — Binarize(1비트 인코딩, 32× 압축), SSDC(희소성 활용), DPR(정밀도 축소)로 feature maps 압축, 4% 오버헤드 미만 ([paper-summaries/2018ISCA-summarize/gist-efficient-data-encoding-for-deep-neural-network-training.md])
+
 ## Related Papers
 
 - [bcd-deduplication-effective-memory-compression-using-partial-cache-line-deduplication.md]
@@ -46,6 +49,7 @@ Memory and storage compression research focuses on reducing data footprint to in
 - [compresso-pragmatic-main-memory-compression.md]
 
 - **PERM DNN**: 순열 대각 행렬 기반 DNN 압축 — EIE 대비 3.3~4.8배 처리량, CIRCNN 대비 11.51배 처리량 향상 ([paper-summaries/2018MICRO-summarize/permdnn-efficient-compressed-dnn-architecture-with-permuted-diagonal-matrices.md])
+- **Gist**: DNN 학습 feature maps 레이어별 인코딩 — 최대 4.1× 메모리 절감, 4% 오버헤드 ([paper-summaries/2018ISCA-summarize/gist-efficient-data-encoding-for-deep-neural-network-training.md])
 
 ## Cross-references
 

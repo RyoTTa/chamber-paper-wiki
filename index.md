@@ -80,6 +80,10 @@
 - [[paper-wiki/papers/making-huge-pages-actually-useful.md|Making Huge Pages Actually Useful]] ??huge pages 단편화 문제 해결 — Illuminator로 compaction 비용 99% 감소 (ASPLOS '18)
 - [[paper-wiki/papers/mask-redesigning-the-gpu-memory-hierarchy-to-support-multi-application-concurrency.md|MASK]] ??GPU 멀티 애플리케이션 동시 실행을 위한 메모리 계층 재설계 — 시스템 처리량 57.8% 향상 (ASPLOS '18)
 - [[paper-wiki/papers/neofog-nonvolatility-exploiting-optimizations-for-fog-computing.md|NEOFog]] ??비휘발성을 활용한 퍼지 컴퓨팅 최적화 — 인포프로세싱 능력 4.2배 증가 (ASPLOS '18)
+- [[paper-wiki/papers/gist-efficient-data-encoding-for-deep-neural-network-training.md|Gist]] ??DNN 학습 feature maps 레이어별 인코딩 — 최대 4.1× 메모리 절감, 4% 오버헤드 (ISCA '18)
+- [[paper-wiki/papers/grafboost-using-accelerated-flash-storage-for-external-graph-analytics.md|GraFBoost]] ??FPGA 기반 플래시 가속 그래프 분석 — 1GB DRAM으로 40억 정점/1280억 엣지 처리 (ISCA '18)
+- [[paper-wiki/papers/guaranteeing-local-differential-privacy-on-ultra-low-power-systems.md|DP-Box]] ??ULP 시스템에서의 LDP 구현 — Resampling/Thresholding으로 저해상도 제약 극복 (ISCA '18)
+- [[paper-wiki/papers/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md|Blinking]] ??정보 유출의 시간적 비균일성 활용 방어 — 15~30% 보호로 75%+ mutual information 차단 (ISCA '18)
 
 ## Topic Coverage
 

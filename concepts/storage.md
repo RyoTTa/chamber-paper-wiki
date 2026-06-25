@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, storage, ssd, flash, nand, ftl]
-source_count: 43
+source_count: 44
 last_updated: 2026-06-25
 ---
 
@@ -40,6 +40,9 @@ Storage research covers NAND flash memory and SSD technologies, focusing on perf
 - **LightStore**: Software-defined network-attached key-value drives ([lightstore-software-defined-network-attached-key-value-drives.md])
 - **Check-In**: In-storage checkpointing for key-value store systems ([check-in-in-storage-checkpointing-for-key-value-store-system-leveraging-flash-based-ssds.md])
 - **GraphSSD**: Graph semantics-aware SSD ([graphssd-graph-semantics-aware-ssd.md])
+
+### Flash-Based Graph Analytics
+- **GraFBoost**: FPGA 기반 플래시 스토리지로 대규모 그래프 분석 — Sort-Reduce 알고리즘으로 랜덤 접근을 순차 SSD 접근으로 변환, 1GB DRAM으로 40억 정점/1280억 엣지 처리 ([paper-summaries/2018ISCA-summarize/grafboost-using-accelerated-flash-storage-for-external-graph-analytics.md])
 
 ### Data Reduction
 - **FIDR**: Scalable storage for fine-grain inline data reduction ([fidr-scalable-storage-for-fine-grain-inline-data-reduction.md])

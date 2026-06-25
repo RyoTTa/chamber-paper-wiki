@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, near-data-processing, ndp, computational-storage]
-source_count: 27
-last_updated: 2026-06-23
+source_count: 28
+last_updated: 2026-06-25
 ---
 
 # Near-Data Processing
@@ -29,6 +29,7 @@ Near-Data Processing (NDP) moves computation closer to where data resides, reduc
 - **ASSASSIN**: Architecture support for stream computing on computational storage ([assasin-architecture-support-for-stream-computing-to-accelerate-computational-storage.md])
 - **ICE**: 3D NAND-based in-memory computing for vector similarity search ([ice-an-intelligent-cognition-engine-with-3d-nand-based-in-memory-computing-for-vector-similarity-search-acceleration.md])
 - **ParaBit**: Parallel bitwise operations in NAND flash SSDs ([parabit-parallel-bitwise-operations-in-nand-flash-memory-based-ssds.md])
+- **GraFBoost**: FPGA 기반 플래시 가속 그래프 분석 — Sort-Reduce로 랜덤 접근을 순차 SSD 접근으로 변환, 1GB DRAM으로 테라바이트급 그래프 처리 ([paper-summaries/2018ISCA-summarize/grafboost-using-accelerated-flash-storage-for-external-graph-analytics.md])
 
 ### Near-Cache Computing
 - **REDUCT**: Near-cache compute for DNN inference on multi-core CPUs ([reduct-near-cache-compute-for-dnn-inference-on-multi-core-cpus.md])

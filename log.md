@@ -375,3 +375,27 @@
 - Created wiki page: `paper-wiki/papers/spandex-a-flexible-interface-for-efficient-heterogeneous-coherence.md`
 - Updated concepts: cache, gpu
 - Tags: coherence, heterogeneous-systems, cpu-gpu, cache-coherence, memory-system
+
+## [2026-06-25] ingest | ISCA 2018 | Gist: Efficient Data Encoding for Deep Neural Network Training
+- Created paper summary: `paper-summaries/2018ISCA-summarize/gist-efficient-data-encoding-for-deep-neural-network-training.md`
+- Created wiki page: `paper-wiki/papers/gist-efficient-data-encoding-for-deep-neural-network-training.md`
+- Updated concepts: compression, dnn-accelerator
+- Tags: dnn-training, memory-compression, feature-maps, encoding
+
+## [2026-06-25] ingest | ISCA 2018 | GraFBoost: Using Accelerated Flash Storage for External Graph Analytics
+- Created paper summary: `paper-summaries/2018ISCA-summarize/grafboost-using-accelerated-flash-storage-for-external-graph-analytics.md`
+- Created wiki page: `paper-wiki/papers/grafboost-using-accelerated-flash-storage-for-external-graph-analytics.md`
+- Updated concepts: storage, near-data-processing
+- Tags: graph-analytics, flash-storage, fpga-acceleration, sort-reduce
+
+## [2026-06-25] ingest | ISCA 2018 | Guaranteeing Local Differential Privacy on Ultra-Low-Power Systems
+- Created paper summary: `paper-summaries/2018ISCA-summarize/guaranteeing-local-differential-privacy-on-ultra-low-power-systems.md`
+- Created wiki page: `paper-wiki/papers/guaranteeing-local-differential-privacy-on-ultra-low-power-systems.md`
+- Updated concepts: security
+- Tags: differential-privacy, iot-security, ultra-low-power, hardware-privacy
+
+## [2026-06-25] ingest | ISCA 2018 | Hiding Intermittent Information Leakage with Architectural Support for Blinking
+- Created paper summary: `paper-summaries/2018ISCA-summarize/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md`
+- Created wiki page: `paper-wiki/papers/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md`
+- Updated concepts: security
+- Tags: side-channel, power-analysis, computational-blinking, hardware-security
