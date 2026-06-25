@@ -2,6 +2,12 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-26] ingest | HPCA 2018 | Reducing Data Transfer Energy by Exploiting Similarity within a Data Transaction
+- Created paper summary: `paper-summaries/2018HPCA-summarize/reducing-data-transfer-energy-by-exploiting-similarity-within-a-data-transaction.md`
+- Created wiki page: `paper-wiki/papers/reducing-data-transfer-energy-by-exploiting-similarity-within-a-data-transaction.md`
+- Updated concepts: compression, gpu
+- Tags: compression, gpu, dram, energy-efficiency, xor-encoding, data-similarity
+
 ## [2026-06-26] ingest | HPCA 2018 | LATTE-CC: Latency Tolerance Aware Adaptive Cache Compression Management for Energy Efficient GPUs
 - Created paper summary: `paper-summaries/2018HPCA-summarize/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md`
 - Created wiki page: `paper-wiki/papers/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md`

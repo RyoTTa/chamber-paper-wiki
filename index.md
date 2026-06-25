@@ -105,7 +105,8 @@
 - [[paper-wiki/papers/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md|DUO]] ??온칩 중복성 이중 활용으로 IECC 비효율성 해결 — 평균 4-14% 낮은 에너지 소비 (HPCA '18)
 - [[paper-wiki/papers/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md|ERUCA]] ??효율적인 서브뱅킹으로 DRAM 리소스 충돌 방지 — 15% 성능 향상, <0.3% 면적 오버헤드 (HPCA '18)
 - [[paper-wiki/papers/reliability-aware-data-placement-for-heterogeneous-memory-architecture.md|Reliability-Aware Data Placement]] ??HMA에서 AVF 기반 hotness-risk quadrant 분석으로 신뢰성 향상 — static 1.6×, dynamic 1.5×, annotation 1.3× reliability 향상 (HPCA '18)
- 
+- [[paper-wiki/papers/reducing-data-transfer-energy-by-exploiting-similarity-within-a-data-transaction.md|Base+XOR Transfer]] ??트랜잭션 내 데이터 유사성 활용 XOR 인코딩으로 POD I/O 에너지 절감 — 1값 35.3% 감소, DRAM 에너지 5.8% 절감, DBI 결합 시 48.2% 감소 (HPCA '18)
+
 
 ## Topic Coverage
 
