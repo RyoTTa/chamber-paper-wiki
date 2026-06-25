@@ -2,6 +2,30 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-26] ingest | ISCA 2018 | Lazy Persistency: A High-Performing and Write-Efficient Software Persistency Technique
+- Created paper summary: `paper-summaries/2018ISCA-summarize/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md`
+- Created wiki page: `paper-wiki/papers/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md`
+- Updated concepts: nvm
+- Tags: persistent-memory, nvm, crash-consistency, software-persistency
+
+## [2026-06-26] ingest | ISCA 2018 | Mitigating Wordline Crosstalk Using Adaptive Trees of Counters
+- Created paper summary: `paper-summaries/2018ISCA-summarize/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md`
+- Created wiki page: `paper-wiki/papers/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md`
+- Updated concepts: dram, rowhammer
+- Tags: dram, rowhammer, reliability, crosstalk
+
+## [2026-06-26] ingest | ISCA 2018 | Neural Cache: Bit-Serial In-Cache Acceleration of Deep Neural Networks
+- Created paper summary: `paper-summaries/2018ISCA-summarize/neural-cache-bit-serial-in-cache-acceleration-of-deep-neural-networks.md`
+- Created wiki page: `paper-wiki/papers/neural-cache-bit-serial-in-cache-acceleration-of-deep-neural-networks.md`
+- Updated concepts: cache, dnn-accelerator
+- Tags: cache, dnn-accelerator, in-memory-computing, bit-serial
+
+## [2026-06-26] ingest | ISCA 2018 | Nonblocking Memory Refresh
+- Created paper summary: `paper-summaries/2018ISCA-summarize/nonblocking-memory-refresh.md`
+- Created wiki page: `paper-wiki/papers/nonblocking-memory-refresh.md`
+- Updated concepts: dram
+- Tags: dram, refresh, reliability, server-memory
+
 ## [2026-06-25] ingest | ISCA 2018 | DHTM: Durable Hardware Transactional Memory
 - Created paper summary: `paper-summaries/2018ISCA-summarize/dhtm-durable-hardware-transactional-memory.md`
 - Created wiki page: `paper-wiki/papers/dhtm-durable-hardware-transactional-memory.md`

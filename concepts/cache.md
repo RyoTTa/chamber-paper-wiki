@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, cache, prefetching, replacement, llc]
-source_count: 14
-last_updated: 2026-06-25
+source_count: 15
+last_updated: 2026-06-26
 ---
 
 # Cache
@@ -44,6 +44,7 @@ Cache research covers caching policy, prefetching, replacement algorithms, and n
 - Processing near the cache hierarchy to reduce data movement
 - Cache as a compute substrate for simple operations
 - In-cache operators for sequence alignment (GenCache: [gencache-leveraging-in-cache-operators-for-sequence-alignment.md])
+- **Neural Cache**: LLC 캐시를 대규모 병렬 연산 유닛으로 재활용하여 DNN 추론 가속 — 비트 직렬 연산으로 CPU 대비 18.3×, GPU 대비 7.7× 지연 시간 향상, 전력 50% 절감 ([paper-summaries/2018ISCA-summarize/neural-cache-bit-serial-in-cache-acceleration-of-deep-neural-networks.md])
 
 ## Related Papers
 

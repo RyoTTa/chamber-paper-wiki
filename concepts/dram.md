@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, dram, reliability, scaling]
-source_count: 31
-last_updated: 2026-06-25
+source_count: 33
+last_updated: 2026-06-26
 ---
 
 # DRAM
@@ -22,6 +22,7 @@ DRAM (Dynamic Random Access Memory) is the primary main memory technology in mod
 - CLR-DRAM enables dynamic capacity-latency trade-offs by exploiting DRAM timing margins ([clr-dram-a-low-cost-dram-architecture-enabling-dynamic-capacity-latency-trade-off.md])
 - CryoGuard explores DRAM design for cryogenic computing, enabling near-refresh-free operation ([cryoguard-a-near-refresh-free-robust-dram-design-for-cryogenic-computing.md])
 - **CAL**: Charge-Level-Aware Look-Ahead Partial Restoration으로 복원 지연시간 14.7% 감소 — 메모리 컨트롤러에서만 구현, ChargeCache/Restore Truncation과 호환 ([paper-summaries/2018MICRO-summarize/reducing-dram-latency-via-charge-level-aware-look-ahead-partial-restoration.md])
+- **Nonblocking Refresh**: DRAM 갱신 동안 읽기 요청 차단 없이 백그라운드 갱신 — 서버 메모리의 기존 중복 데이터(chipkill-correct) 활용, 16Gb 칩 16.2%, 32Gb 칩 30.3% 성능 향상 ([paper-summaries/2018ISCA-summarize/nonblocking-memory-refresh.md])
 
 ### HBM (High Bandwidth Memory)
 - HBM provides significantly higher bandwidth than traditional DDR but faces thermal and integration challenges
@@ -40,6 +41,7 @@ DRAM (Dynamic Random Access Memory) is the primary main memory technology in mod
 
 ### DRAM Reliability and ECC
 - **DUO**: 온칩 중복성의 이중 활용으로 IECC 비효율성 해결 — IECC 대비 평균 2-3% 성능 저하 수준, 평균 4-14% 낮은 에너지 소비, 높은 신뢰성 달성 ([paper-summaries/2018HPCA-summarize/duo-exposing-on-chip-redundancy-to-rank-level-ecc-for-high-reliability.md])
+- **CAT (Counter-based Adaptive Tree)**: 메모리 접근 패턴에 따라 카운터 분포를 동적으로 조정하여 wordline crosstalk 완화 — 갱신 전력 오버헤드를 SCA 21%, Probabilistic 18%에서 CAT 7%로 감소, 성능 오버헤드 ~0.5% ([paper-summaries/2018ISCA-summarize/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md])
 
 ### DRAM Parallelism and Resource Management
 - **ERUCA**: 효율적인 서브뱅킹 및 주파수 확장 가능한 DRAM 아키텍처 — 거의 제로의 면적 오버헤드(<0.3%)로 15% 성능 향상 ([paper-summaries/2018HPCA-summarize/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md])

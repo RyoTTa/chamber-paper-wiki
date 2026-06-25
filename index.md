@@ -1,7 +1,7 @@
 ﻿# Wiki Index
 
 > Computer Architecture Research Wiki ??2019??026
-> Last updated: 2026-06-25
+> Last updated: 2026-06-26
 
 ## Overview
 
@@ -26,6 +26,10 @@
 
 ## Papers (Recent)
 
+- [[paper-wiki/papers/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md|Lazy Persistency]] — 캐시 자연적 퇴출 기반 NVM 영속성 — Eager 대비 실행 9%→1%, 쓰기증폭 21%→3% (ISCA '18)
+- [[paper-wiki/papers/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md|CAT]] — 적응형 카운터 트리로 wordline crosstalk 완화 — 갱신전력 7% (SCA 21% 대비), 성능 ~0.5% 오버헤드 (ISCA '18)
+- [[paper-wiki/papers/neural-cache-bit-serial-in-cache-acceleration-of-deep-neural-networks.md|Neural Cache]] — LLC를 대규모 병렬 연산유닛으로 재활용 — CPU 대비 18.3×, GPU 대비 7.7× 지연시간 향상 (ISCA '18)
+- [[paper-wiki/papers/nonblocking-memory-refresh.md|Nonblocking Refresh]] — DRAM 배경 갱신으로 읽기 차단 제거 — 서버중복데이터 활용, 16Gb 16.2%, 32Gb 30.3% 성능향상 (ISCA '18)
 - [[paper-wiki/papers/dhtm-durable-hardware-transactional-memory.md|DHTM]] — 최초의 완전한 하드웨어 ACID 트랜잭션 메모리 — 상용 HTM + redo 로깅, 21~25% 성능 향상 (ISCA '18)
 - [[paper-wiki/papers/enabling-scientific-computing-on-memristive-accelerator.md|Memristive Scientific Computing]] — 메모리스트 크로스바에서 고정밀 부동소수점 연산 — GPU 대비 10.3× 성능, 10.9× 에너지 절감 (ISCA '18)
 - [[paper-wiki/papers/energy-efficient-neural-network-accelerator-based-on-outlier-aware.md|OLAccel]] — 아웃라이어 인식 4비트 신경망 가속기 — 16비트 대비 최대 62.2% 에너지 절감 (ISCA '18)

@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, rowhammer, security, dram, reliability]
-source_count: 20
-last_updated: 2026-06-19
+source_count: 21
+last_updated: 2026-06-26
 ---
 
 # RowHammer
@@ -31,6 +31,7 @@ RowHammer is a DRAM disturbance vulnerability where repeatedly activating a row 
 - **BlockHammer**: Prevents RowHammer at low cost by tracking aggressor rows ([blockhammer-preventing-rowhammer-at-low-cost.md])
 - **PrIDE**: Achieves secure RowHammer mitigation with low-cost in-DRAM trackers ([pride-achieving-secure-rowhammer-mitigation-with-low-cost-in-dram-trackers.md])
 - **AQUA**: Scalable mitigation by quarantining aggressor rows at runtime ([aqua-scalable-rowhammer-mitigation-by-quarantining-aggressor-rows-at-runtime.md])
+- **CAT (Counter-based Adaptive Tree)**: DRAM 접근 지역성을 활용한 적응형 카운터 트리로 wordline crosstalk 완화 — 갱신 전력 오버헤드 7% (SCA 21%, Probabilistic 18% 대비), 성능 오버헤드 ~0.5% ([paper-summaries/2018ISCA-summarize/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md])
 
 #### Probabilistic
 - **PARA**: Probabilistic Adjacent Row Activation ??refreshes random adjacent rows with probability p
