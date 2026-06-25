@@ -41,6 +41,7 @@ GPU research focuses on memory management, virtual memory, multi-tenancy, and ar
 
 ### GPU Virtualization and Security
 - **Sugar**: GPU 가상화를 활용한 웹 브라우저 GPU 가속 보안 — 전용 가상 그래픽 폴레인으로 완전한 웹 앱 격리, 이중 GPU 동시 렌더링으로 성능 향상 ([paper-summaries/2018ASPLOS-summarize/sugar-secure-gpu-acceleration-in-web-browsers.md])
+- **RCoal**: GPU 타이밍 공격 완화를 위한 서브워프 기반 무작위화된 코얼레싱 기법 — FSS, RSS, RTS 조합으로 24~961배 보안 향상, 5~28% 성능 저하 ([paper-summaries/2018HPCA-summarize/rcoal-mitigating-gpu-timing-attack-via-subwarp-based-randomized-coalescing-techniques.md])
 
 ## Related Papers
 

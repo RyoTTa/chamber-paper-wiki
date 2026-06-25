@@ -33,6 +33,7 @@ Memory security research covers memory encryption, trusted execution environment
 - Timing-based side channels through shared memory resources
 - Cross-user-kernel-boundary RowHammer attacks ([pthammer-cross-user-kernel-boundary-rowhammer-through-implicit-accesses.md])
 - **Shadow Block**: ORAM 보안 유지하면서 데이터 블록 조기 접근 — RD-Dup/HD-Dup 동적 결합으로 성능 향상 ([paper-summaries/2018MICRO-summarize/shadow-block-accelerating-oram-accesses-with-data-duplication.md])
+- **RCoal**: GPU 타이밍 공격 완화를 위한 서브워프 기반 무작위화된 코얼레싱 기법 — FSS, RSS, RTS 조합으로 24~961배 보안 향상, 5~28% 성능 저하 ([paper-summaries/2018HPCA-summarize/rcoal-mitigating-gpu-timing-attack-via-subwarp-based-randomized-coalescing-techniques.md])
 
 ### Power Side-Channel Defense
 - **Blinking**: 정보 유출의 시간적 비균일성을 활용한 Computational Blinking — 15~30% 구간 보호로 75%+ mutual information 차단, 소프트웨어 제어형 전력 채널 방어 ([paper-summaries/2018ISCA-summarize/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md])
@@ -43,6 +44,7 @@ Memory security research covers memory encryption, trusted execution environment
 ### Applied Security
 - **DAMN**: IOMMU 기반 DMA 공격 보호에서 보안/성능 트레이드오프 제거 — 사용자/커널 경계에서 보호 제공 ([paper-summaries/2018ASPLOS-summarize/damn-overhead-free-iommu-protection-for-networking.md])
 - **Anubis**: Ultra-low overhead recovery for secure NVMs ([anubis-ultra-low-overhead-and-recovery-for-secure-nvms.md])
+- **Record-Replay Architecture**: RnR을 하드웨어 보안 기능을 보완하는 데 사용하는 새로운 프레임워크 — 체크포인트 재생기와 알람 재생기를 통한 효율적 보안 ([paper-summaries/2018HPCA-summarize/record-replay-architecture-as-a-general-security-framework.md])
 - Security for CXL memory pooling
 - Integrity verification for disaggregated memory
 

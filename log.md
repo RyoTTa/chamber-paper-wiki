@@ -513,3 +513,21 @@
 - Created wiki page: `paper-wiki/papers/outerspace-an-outer-product-based-sparse-matrix-multiplication-accelerator.md`
 - Updated concepts: pim
 - Tags: sparse-matrix, accelerator, parallel-processing, hbm, outer-product
+
+## [2026-06-26] ingest | HPCA 2018 | ProFess: A Probabilistic Hybrid Main Memory Management Framework for High Performance and Fairness
+- Created paper summary: `paper-summaries/2018HPCA-summarize/profess-a-probabilistic-hybrid-main-memory-management-framework-for-high-performance-and-fairness.md`
+- Created wiki page: `paper-wiki/papers/profess-a-probabilistic-hybrid-main-memory-management-framework-for-high-performance-and-fairness.md`
+- Created concept page: `paper-wiki/concepts/hybrid-memory.md`
+- Tags: hybrid-memory, nvm, dram, fairness, performance, memory-management
+
+## [2026-06-26] ingest | HPCA 2018 | RCoal: Mitigating GPU Timing Attack via Subwarp-based Randomized Coalescing Techniques
+- Created paper summary: `paper-summaries/2018HPCA-summarize/rcoal-mitigating-gpu-timing-attack-via-subwarp-based-randomized-coalescing-techniques.md`
+- Created wiki page: `paper-wiki/papers/rcoal-mitigating-gpu-timing-attack-via-subwarp-based-randomized-coalescing-techniques.md`
+- Updated concepts: gpu, security
+- Tags: gpu, security, timing-attack, coalescing, side-channel
+
+## [2026-06-26] ingest | HPCA 2018 | Record-Replay Architecture as a General Security Framework
+- Created paper summary: `paper-summaries/2018HPCA-summarize/record-replay-architecture-as-a-general-security-framework.md`
+- Created wiki page: `paper-wiki/papers/record-replay-architecture-as-a-general-security-framework.md`
+- Updated concepts: security
+- Tags: security, record-replay, hardware-security, rop, virtualization
