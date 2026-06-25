@@ -39,6 +39,9 @@ GPU research focuses on memory management, virtual memory, multi-tenancy, and ar
 - GPU-accelerated recommendation systems
 - GPU NUMA effects for attention optimization ([optimizing-attention-on-gpus-by-exploiting-gpu-architectural-numa-effects.md])
 
+### GPU Virtualization and Security
+- **Sugar**: GPU 가상화를 활용한 웹 브라우저 GPU 가속 보안 — 전용 가상 그래픽 폴레인으로 완전한 웹 앱 격리, 이중 GPU 동시 렌더링으로 성능 향상 ([paper-summaries/2018ASPLOS-summarize/sugar-secure-gpu-acceleration-in-web-browsers.md])
+
 ## Related Papers
 
 - [improving-address-translation-in-multi-gpus.md]

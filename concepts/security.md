@@ -23,6 +23,7 @@ Memory security research covers memory encryption, trusted execution environment
 - Memory encryption engines (MEE) for TEEs like Intel SGX and TDX
 - Page table protection mechanisms
 - Security for disaggregated memory systems
+- **VAULT**: SGX 페이징 오버헤드 해결을 위한 효율적인 무결성 검증 구조 — Variable Arity Unified Tree로 기존 SGX 대비 3.7배 성능 향상, 메모리 용량 오버헤드 4.7% 유지 ([paper-summaries/2018ASPLOS-summarize/vault-reducing-paging-overheads-in-sgx-with-efficient-integrity-verification-structures.md])
 
 ### Side Channels and Covert Channels
 - **BranchScope**: 분기 방향 예측기에 대한 최초의 세밀한 사이드 채널 공격 — PHT 충돌을 이용한 분기 방향 추론 ([paper-summaries/2018ASPLOS-summarize/branchscope-a-new-side-channel-attack-on-directional-branch-predictor.md])

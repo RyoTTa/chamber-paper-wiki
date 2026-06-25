@@ -53,6 +53,9 @@ Storage research covers NAND flash memory and SSD technologies, focusing on perf
 - CXL memory-semantic SSDs bridge storage and memory ??ByteFS provides system support ([bytefs-system-support-for-cxl-based-memory-semantic-solid-state-drives.md])
 - Full-system simulation framework for CXL-based SSD memory systems ([full-system-simulation-framework-for-cxl-based-ssd-memory-system.md])
 
+### Secure Storage
+- **StrongBox**: 스트림 암호 기반 전체 드라이브 암호화 — LFS 특성과 TEE 카운터를 활용하여 AES-XTS보다 읽기 성능 평균 1.72배 향상, 강화된 무결성 보장 제공 ([paper-summaries/2018ASPLOS-summarize/strongbox-confidentiality-integrity-and-performance-using-stream-ciphers-for-full-drive-encryption.md])
+
 ## Related Papers
 
 - [invalid-data-aware-coding-to-enhance-the-read-performance-of-high-density-flash-memories.md]
