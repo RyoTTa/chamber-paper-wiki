@@ -17,6 +17,7 @@ Memory and storage compression research focuses on reducing data footprint to in
 - **DyLeCT**: Achievement of huge-page-like translation performance for hardware-compressed memory ([dylect-achieving-huge-page-like-translation-performance-for-hardware-compressed-memory.md])
 - **Translation-Optimized Memory Compression**: Compression-aware address translation for capacity ([translation-optimized-memory-compression-for-capacity.md])
 - **WLCRC**: Word-Level Compression + Restricted Coset Encoding으로 MLC PCM의 세밀한 인코딩 세밀화 — 16비트 세밀화에서 기존 기법 대비 39% 쓰기 에너지 절감 ([paper-summaries/2018HPCA-summarize/enabling-fine-grain-restricted-coset-coding-through-word-level-compression-for-pcm.md])
+- **LATTE-CC**: GPU의 동적 레이턴시 내성 특성을 활용한 적응형 캐시 압축 관리 기법 — 세 가지 압축 모드를 동적으로 선택하여 캐시 민감 GPGPU 애플리케이션의 성능을 최대 48.4% 향상, 에너지 소비를 평균 10% 절감 ([paper-summaries/2018HPCA-summarize/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md])
 
 ### Storage Data Reduction
 - **FIDR**: Scalable storage for fine-grain inline data reduction ([fidr-scalable-storage-for-fine-grain-inline-data-reduction.md])

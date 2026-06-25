@@ -2,6 +2,12 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-26] ingest | HPCA 2018 | LATTE-CC: Latency Tolerance Aware Adaptive Cache Compression Management for Energy Efficient GPUs
+- Created paper summary: `paper-summaries/2018HPCA-summarize/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md`
+- Created wiki page: `paper-wiki/papers/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md`
+- Updated concepts: cache, energy-efficiency, gpu, compression
+- Tags: cache, gpu, compression, energy-efficiency, latency-tolerance, adaptive-compression
+
 ## [2026-06-26] ingest | HPCA 2018 | SYNERGY: Rethinking Secure-Memory Design for Error-Correcting Memories
 - Created paper summary: `paper-summaries/2018HPCA-summarize/synergy-rethinking-secure-memory-design-for-error-correcting-memories.md`
 - Created wiki page: `paper-wiki/papers/synergy-rethinking-secure-memory-design-for-error-correcting-memories.md`

@@ -43,6 +43,11 @@ Cache research covers caching policy, prefetching, replacement algorithms, and n
 ### Cache Security
 - **CEASER**: LLC에서 암호화된 주소 공간과 동적 리매핑으로 conflict-based 캐시 공격 완화 — 1% 오버헤드로 100년 이상 보안 강건성 ([paper-summaries/2018MICRO-summarize/ceaser-mitigating-conflict-based-cache-attacks-via-encrypted-address-and-remapping.md])
 
+### Cache Compression
+- **LATTE-CC**: GPU의 동적 레이턴시 내성 특성을 활용한 적응형 캐시 압축 관리 기법 — 세 가지 압축 모드(비압축, 저레이턴시, 고용량)를 동적으로 선택하여 캐시 민감 GPGPU 애플리케이션의 성능을 최대 48.4% 향상, 에너지 소비를 평균 10% 절감 ([paper-summaries/2018HPCA-summarize/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md])
+- **Attaché**: 메모리 압축 시 메타데이터 대역폭 오버헤드 제거 기법 (MICRO '18)
+- **Compresso**: OS-투명 메인 메모리 압축 기법 (MICRO '18)
+
 ### Near-Cache Computing
 - Processing near the cache hierarchy to reduce data movement
 - Cache as a compute substrate for simple operations

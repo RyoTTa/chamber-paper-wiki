@@ -19,6 +19,7 @@ GPU research focuses on memory management, virtual memory, multi-tenancy, and ar
 - Designing virtual memory system of MCM (multi-chip module) GPUs ([designing-virtual-memory-system-of-mcm-gpus.md])
 - **Filtering Translation Bandwidth with Virtual Caching**: GPU 가상 캐시 계층을 통한 주소 번역 대역폭 필터링 — 이상적 MMU 대비 98% 성능 달성, 주소 번역 대역폭 60% 감소 ([paper-summaries/2018ASPLOS-summarize/filtering-translation-bandwidth-with-virtual-caching.md])
 - **LTRF**: 컴파일 시간 구간 분석을 활용한 하드웨어/소프트웨어 협력 레지스터 프리페칭 — 31% IPC 향상, 46% 전력 소비 감소, 8배 용량 확장 ([paper-summaries/2018ASPLOS-summarize/ltrf-enabling-high-capacity-register-files-for-gpus.md])
+- **LATTE-CC**: GPU의 동적 레이턴시 내성 특성을 활용한 적응형 캐시 압축 관리 기법 — 세 가지 압축 모드를 동적으로 선택하여 캐시 민감 GPGPU 애플리케이션의 성능을 최대 48.4% 향상, 에너지 소비를 평균 10% 절감 ([paper-summaries/2018HPCA-summarize/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md])
 
 ### GPU Multi-Tenancy
 - **Page Walk Stealing**: Improving GPU multi-tenancy by stealing page walks between contexts ([improving-gpu-multi-tenancy-with-page-walk-stealing.md])
