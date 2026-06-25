@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, nvm, persistent-memory, pmem, scm]
-source_count: 34
+source_count: 35
 last_updated: 2026-06-26
 ---
 
@@ -42,6 +42,9 @@ Non-Volatile Memory (NVM), also known as persistent memory or storage-class memo
 - **Unbounded HTM**: Hardware transactional memory for hybrid DRAM/NVM systems ([unbounded-hardware-transactional-memory-for-a-hybrid-dram-nvm-memory-system.md])
 - **P-INSPECT**: Architectural support for programmable NVM frameworks ([p-inspect-architectural-support-for-programmable-non-volatile-memory-frameworks.md])
 - **In-Memory Data Parallel Processor**: ReRAM 기반 인메모리 데이터 병렬 프로세서 — TensorFlow 컴파일러와 SIMD 실행 모델로 Parsec에서 7.5x, Rodinia에서 763x speedup ([paper-summaries/2018ASPLOS-summarize/in-memory-data-parallel-processor.md])
+
+### PCM Write Energy Optimization
+- **WLCRC**: MLC PCM의 세밀한 인코딩 세밀화 + Word-Level Compression — 16비트 세밀화에서 기존 기법 대비 39% 쓰기 에너지 절감, 20% 내구성 향상 ([paper-summaries/2018HPCA-summarize/enabling-fine-grain-restricted-coset-coding-through-word-level-compression-for-pcm.md])
 
 ### Hybrid DRAM/NVM Systems
 - **Binary Star**: Coordinated reliability in heterogeneous memory systems ([binary-star-coordinated-reliability-in-heterogeneous-memory-systems.md])

@@ -27,6 +27,10 @@
 ## Papers (Recent)
 
 - [[paper-wiki/papers/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md|Lazy Persistency]] — 캐시 자연적 퇴출 기반 NVM 영속성 — Eager 대비 실행 9%→1%, 쓰기증폭 21%→3% (ISCA '18)
+- [[paper-wiki/papers/seesaw-using-superpages-to-improve-vipt-caches.md|SEESAW]] — Superpage 활용 VIPT 캐시 associativity 극복 — 2MB superpage에서 way 감소로 latency/energy 절감 (ISCA '18)
+- [[paper-wiki/papers/snapea-predictive-early-activation-for-reducing-computation-in-deep-convolutional-neural-networks.md|SnaPEA]] — ReLU 특성 활용 조기 활성화 — Exact: 28% speedup, Predictive: 최대 3.59× speedup (ISCA '18)
+- [[paper-wiki/papers/enabling-fine-grain-restricted-coset-coding-through-word-level-compression-for-pcm.md|WLCRC]] — MLC PCM 세밀한 인코딩 — 16비트 세밀화에서 39% 쓰기 에너지 절감 (HPCA '18)
+- [[paper-wiki/papers/graphr-accelerating-graph-processing-using-reram.md|GraphR]] — ReRAM 기반 그래프 가속기 — CPU 대비 16× speedup, 34× energy 절감 (HPCA '18)
 - [[paper-wiki/papers/mitigating-wordline-crosstalk-using-adaptive-trees-of-counters.md|CAT]] — 적응형 카운터 트리로 wordline crosstalk 완화 — 갱신전력 7% (SCA 21% 대비), 성능 ~0.5% 오버헤드 (ISCA '18)
 - [[paper-wiki/papers/neural-cache-bit-serial-in-cache-acceleration-of-deep-neural-networks.md|Neural Cache]] — LLC를 대규모 병렬 연산유닛으로 재활용 — CPU 대비 18.3×, GPU 대비 7.7× 지연시간 향상 (ISCA '18)
 - [[paper-wiki/papers/nonblocking-memory-refresh.md|Nonblocking Refresh]] — DRAM 배경 갱신으로 읽기 차단 제거 — 서버중복데이터 활용, 16Gb 16.2%, 32Gb 30.3% 성능향상 (ISCA '18)

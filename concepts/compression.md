@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, compression, data-reduction, encoding]
-source_count: 12
+source_count: 13
 last_updated: 2026-06-25
 ---
 
@@ -16,6 +16,7 @@ Memory and storage compression research focuses on reducing data footprint to in
 - **BCD Deduplication**: Effective memory compression using partial cache-line deduplication ([bcd-deduplication-effective-memory-compression-using-partial-cache-line-deduplication.md])
 - **DyLeCT**: Achievement of huge-page-like translation performance for hardware-compressed memory ([dylect-achieving-huge-page-like-translation-performance-for-hardware-compressed-memory.md])
 - **Translation-Optimized Memory Compression**: Compression-aware address translation for capacity ([translation-optimized-memory-compression-for-capacity.md])
+- **WLCRC**: Word-Level Compression + Restricted Coset Encoding으로 MLC PCM의 세밀한 인코딩 세밀화 — 16비트 세밀화에서 기존 기법 대비 39% 쓰기 에너지 절감 ([paper-summaries/2018HPCA-summarize/enabling-fine-grain-restricted-coset-coding-through-word-level-compression-for-pcm.md])
 
 ### Storage Data Reduction
 - **FIDR**: Scalable storage for fine-grain inline data reduction ([fidr-scalable-storage-for-fine-grain-inline-data-reduction.md])

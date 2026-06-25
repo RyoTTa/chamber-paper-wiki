@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, cache, prefetching, replacement, llc]
-source_count: 15
+source_count: 16
 last_updated: 2026-06-26
 ---
 
@@ -36,6 +36,9 @@ Cache research covers caching policy, prefetching, replacement algorithms, and n
 - **REDUCT**: Near-cache compute for DNN inference on multi-core CPUs ([reduct-near-cache-compute-for-dnn-inference-on-multi-core-cpus.md])
 - **AMS**: 비대칭 메모리 계층에서 미스 곡선 기반 LLC 파티셔닝을 통한 스케줄링 최적화 — NDP/프로세서 다이 간 최적 스레드 배치 ([adaptive-scheduling-for-systems-with-asymmetric-memory-hierarchies.md])
 - **SILO**: 다이 스택 DRAM 기반 프라이빗 LLC로 서버 프로세서의 공유 LLC 한계 극복 — 각 코어 위에 직접 스택된 DRAM 볼트로 11.5ns 접근 지연 시간 달성, 5-54% 성능 향상 ([farewell-my-shared-llc-a-case-for-private-die-stacked-dram-caches-for-servers.md])
+
+### VIPT Cache Optimization
+- **SEESAW**: Superpage의 넓은 page offset을 활용하여 VIPT L1 캐시의 associativity 제약 극복 — 2MB superpage에서 way 수 동적 감소로 latency/energy 절감, coherence lookup 에너지 대폭 절감 ([paper-summaries/2018ISCA-summarize/seesaw-using-superpages-to-improve-vipt-caches.md])
 
 ### Cache Security
 - **CEASER**: LLC에서 암호화된 주소 공간과 동적 리매핑으로 conflict-based 캐시 공격 완화 — 1% 오버헤드로 100년 이상 보안 강건성 ([paper-summaries/2018MICRO-summarize/ceaser-mitigating-conflict-based-cache-attacks-via-encrypted-address-and-remapping.md])

@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, near-data-processing, ndp, computational-storage]
-source_count: 28
+source_count: 29
 last_updated: 2026-06-25
 ---
 
@@ -23,6 +23,7 @@ Near-Data Processing (NDP) moves computation closer to where data resides, reduc
 - **Beacon**: Scalable NDP for genome analysis with CXL support ([beacon-scalable-near-data-processing-accelerators-for-genome-analysis-near-memory-pool-with-the-cxl-support.md])
 - **MCN**: Application-transparent NDP via Memory Channel Network — DDR 채널 위에서 이더넷 통신을 에뮬레이션하여 기존 MPI/Spark를 변경 없이 사용 가능 ([application-transparent-near-memory-processing-architecture-with-memory-channel-network.md])
 - **AMS**: Adaptive scheduler for asymmetric memory hierarchies — 미스 곡선 기반 스케줄링으로 NDP/프로세서 다이 간 최적 배치 ([adaptive-scheduling-for-systems-with-asymmetric-memory-hierarchies.md])
+- **GraphR**: ReRAM 기반 그래프 처리 가속기 — 크로스바에서 아날로그 SpMV 수행, CPU 대비 16× speedup, 34× energy 절감 ([paper-summaries/2018HPCA-summarize/graphr-accelerating-graph-processing-using-reram.md])
 
 ### Computational Storage
 - **DeepStore**: In-storage acceleration for intelligent queries ([deepstore-in-storage-acceleration-for-intelligent-queries.md])

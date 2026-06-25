@@ -2,6 +2,30 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-26] ingest | ISCA 2018 | SEESAW: Using Superpages to Improve VIPT Caches
+- Created paper summary: `paper-summaries/2018ISCA-summarize/seesaw-using-superpages-to-improve-vipt-caches.md`
+- Created wiki page: `paper-wiki/papers/seesaw-using-superpages-to-improve-vipt-caches.md`
+- Updated concepts: cache, virtual-memory
+- Tags: cache, virtual-memory, superpage, vipt, l1-cache
+
+## [2026-06-26] ingest | ISCA 2018 | SnaPEA: Predictive Early Activation for Reducing Computation in Deep Convolutional Neural Networks
+- Created paper summary: `paper-summaries/2018ISCA-summarize/snapea-predictive-early-activation-for-reducing-computation-in-deep-convolutional-neural-networks.md`
+- Created wiki page: `paper-wiki/papers/snapea-predictive-early-activation-for-reducing-computation-in-deep-convolutional-neural-networks.md`
+- Updated concepts: dnn-accelerator
+- Tags: dnn-accelerator, cnn, relu, early-activation, computation-reduction
+
+## [2026-06-26] ingest | HPCA 2018 | Enabling Fine-Grain Restricted Coset Coding Through Word-Level Compression for PCM
+- Created paper summary: `paper-summaries/2018HPCA-summarize/enabling-fine-grain-restricted-coset-coding-through-word-level-compression-for-pcm.md`
+- Created wiki page: `paper-wiki/papers/enabling-fine-grain-restricted-coset-coding-through-word-level-compression-for-pcm.md`
+- Updated concepts: nvm, compression
+- Tags: nvm, pcm, coset-coding, write-energy, compression
+
+## [2026-06-26] ingest | HPCA 2018 | GraphR: Accelerating Graph Processing Using ReRAM
+- Created paper summary: `paper-summaries/2018HPCA-summarize/graphr-accelerating-graph-processing-using-reram.md`
+- Created wiki page: `paper-wiki/papers/graphr-accelerating-graph-processing-using-reram.md`
+- Updated concepts: pim, near-data-processing
+- Tags: pim, near-data-processing, reram, graph-processing, analog-computing
+
 ## [2026-06-26] ingest | ISCA 2018 | Lazy Persistency: A High-Performing and Write-Efficient Software Persistency Technique
 - Created paper summary: `paper-summaries/2018ISCA-summarize/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md`
 - Created wiki page: `paper-wiki/papers/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md`
@@ -447,3 +471,27 @@
 - Created wiki page: `paper-wiki/papers/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md`
 - Updated concepts: dram
 - Tags: dram-parallelism, resource-management, subbanking, address-locality
+
+## [2026-06-26] ingest | ASPLOS 2018 | Espresso: Brewing Java For More Non-Volatility with Non-volatile Memory
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
+- Created wiki page: `paper-wiki/papers/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
+- Updated concepts: nvm
+- Tags: nvm, java, crash-consistency, persistence, managed-runtime
+
+## [2026-06-26] ingest | ASPLOS 2018 | StrongBox: Confidentiality, Integrity, and Performance using Stream Ciphers for Full Drive Encryption
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/strongbox-confidentiality-integrity-and-performance-using-stream-ciphers-for-full-drive-encryption.md`
+- Created wiki page: `paper-wiki/papers/strongbox-confidentiality-integrity-and-performance-using-stream-ciphers-for-full-drive-encryption.md`
+- Updated concepts: storage
+- Tags: encryption, security, stream-ciphers, mobile, storage
+
+## [2026-06-26] ingest | ASPLOS 2018 | Sugar: Secure GPU Acceleration in Web Browsers
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/sugar-secure-gpu-acceleration-in-web-browsers.md`
+- Created wiki page: `paper-wiki/papers/sugar-secure-gpu-acceleration-in-web-browsers.md`
+- Updated concepts: gpu
+- Tags: gpu, security, virtualization, web-browser, graphics
+
+## [2026-06-26] ingest | ASPLOS 2018 | VAULT: Reducing Paging Overheads in SGX with Efficient Integrity Verification Structures
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/vault-reducing-paging-overheads-in-sgx-with-efficient-integrity-verification-structures.md`
+- Created wiki page: `paper-wiki/papers/vault-reducing-paging-overheads-in-sgx-with-efficient-integrity-verification-structures.md`
+- Updated concepts: security
+- Tags: sgx, security, memory-integrity, paging, compression
