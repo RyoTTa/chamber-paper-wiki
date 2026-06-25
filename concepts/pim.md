@@ -26,6 +26,7 @@ Processing-in-Memory (PIM) integrates computation logic near or inside memory ar
 - **RACER**: Bit-pipelined processing using resistive memory ([racer-bit-pipelined-processing-using-resistive-memory.md])
 - **CASCADE**: Connecting RRAMs for in-memory processing ([cascade-connecting-rrams-for-in-memory-processing.md])
 - Accelerating GCNs using crossbar-based PIM architectures ([accelerating-gcns-using-crossbar-based-processing-in-memory-architectures.md])
+- **Memristive Accelerators for Scientific Computing**: 메모리스트 크로스바에서 고정밀 부동소수점 연산 지원 — 지수 범위 국소성, 조기 종료, 정적 스케줄링 기법으로 GPU 대비 10.3배 성능 향상, 10.9배 에너지 절감 ([paper-summaries/2018ISCA-summarize/enabling-scientific-computing-on-memristive-accelerators.md])
 
 ### Near-Data Processing (NDP)
 - **CoNDA**: Cache coherence support for near-data accelerators ([conda-efficient-cache-coherence-support-for-near-data-accelerators.md])

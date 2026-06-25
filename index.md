@@ -26,7 +26,11 @@
 
 ## Papers (Recent)
 
-- [[paper-wiki/papers/2b-ssd-the-case-for-dual-byte-and-block-addressable-solid-state-drives.md|2B-SSD]] ??바이트/블록 주소 지정 하이브리드 SSD — sub-1μs 쓰기 지연, 1.2~2.8× 처리량 향상 (ISCA '18)
+- [[paper-wiki/papers/dhtm-durable-hardware-transactional-memory.md|DHTM]] — 최초의 완전한 하드웨어 ACID 트랜잭션 메모리 — 상용 HTM + redo 로깅, 21~25% 성능 향상 (ISCA '18)
+- [[paper-wiki/papers/enabling-scientific-computing-on-memristive-accelerator.md|Memristive Scientific Computing]] — 메모리스트 크로스바에서 고정밀 부동소수점 연산 — GPU 대비 10.3× 성능, 10.9× 에너지 절감 (ISCA '18)
+- [[paper-wiki/papers/energy-efficient-neural-network-accelerator-based-on-outlier-aware.md|OLAccel]] — 아웃라이어 인식 4비트 신경망 가속기 — 16비트 대비 최대 62.2% 에너지 절감 (ISCA '18)
+- [[paper-wiki/papers/flexon-a-flexible-digital-neuron.md|Flexon]] — 유연한 디지털 뉴런 — CPU 대비 6,186× 에너지 효율 향상, 7.62mm² (ISCA '18)
+- [[paper-wiki/papers/2b-ssd-the-case-for-dual-byte-and-block-addressable-solid-state-drives.md|2B-SSD]] — 바이트/블록 주소 지정 하이브리드 SSD — sub-1μs 쓰기 지연, 1.2~2.8× 처리량 향상 (ISCA '18)
 - [[paper-wiki/papers/a-configurable-cloud-scale-dnn-processor-for-real-time-ai.md|Brainwave]] ??클라우드 규모 real-time AI를 위한 configurable NPU — 배치 없이 35 TeraFLOPS (ISCA '18)
 - [[paper-wiki/papers/bit-fusion-bit-level-dynamically-composable-architecture-for-accelerating-deep-neural-network.md|Bit Fusion]] ??비트 수준 동적 융합 DNN 가속기 — Eyeriss 대비 3.9× 속도, 5.1× 에너지 절감 (ISCA '18)
 - [[paper-wiki/papers/criticality-aware-tiered-cache-hierarchy-a-fundamental-relook-at-multi-level-cache-hierarchies.md|CATCH]] ??Criticality-aware 캐시 계층 — L2 제거로 30% 면적 절감 + 4.5% 성능 향상 (ISCA '18)

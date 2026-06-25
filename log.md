@@ -2,6 +2,30 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-25] ingest | ISCA 2018 | DHTM: Durable Hardware Transactional Memory
+- Created paper summary: `paper-summaries/2018ISCA-summarize/dhtm-durable-hardware-transactional-memory.md`
+- Created wiki page: `paper-wiki/papers/dhtm-durable-hardware-transactional-memory.md`
+- Updated concepts: nvm
+- Tags: persistent-memory, transactional-memory, crash-consistency, hardware-acceleration
+
+## [2026-06-25] ingest | ISCA 2018 | Enabling Scientific Computing on Memristive Accelerators
+- Created paper summary: `paper-summaries/2018ISCA-summarize/enabling-scientific-computing-on-memristive-accelerators.md`
+- Created wiki page: `paper-wiki/papers/enabling-scientific-computing-on-memristive-accelerator.md`
+- Updated concepts: pim
+- Tags: memristive-accelerator, scientific-computing, linear-algebra, sparse-matrix
+
+## [2026-06-25] ingest | ISCA 2018 | Energy-efficient Neural Network Accelerator Based on Outlier-aware Low-precision Computation
+- Created paper summary: `paper-summaries/2018ISCA-summarize/energy-efficient-neural-network-accelerator-based-on-outlier-aware-low-precision-computation.md`
+- Created wiki page: `paper-wiki/papers/energy-efficient-neural-network-accelerator-based-on-outlier-aware.md`
+- Updated concepts: dnn-accelerator
+- Tags: neural-network-accelerator, quantization, energy-efficiency, outlier-aware
+
+## [2026-06-25] ingest | ISCA 2018 | Flexon: A Flexible Digital Neuron for Efficient Spiking Neural Network Simulations
+- Created paper summary: `paper-summaries/2018ISCA-summarize/flexon-a-flexible-digital-neuron-for-efficient-spiking-neural-network-simulations.md`
+- Created wiki page: `paper-wiki/papers/flexon-a-flexible-digital-neuron.md`
+- Created concept page: `paper-wiki/concepts/spiking-neural-network.md`
+- Tags: spiking-neural-network, digital-neuron, flexibility, neuroscience
+
 ## [2026-06-25] ingest | ASPLOS 2018 | Making Huge Pages Actually Useful
 - Created paper summary: `paper-summaries/2018ASPLOS-summarize/making-huge-pages-actually-useful.md`
 - Created wiki page: `paper-wiki/papers/making-huge-pages-actually-useful.md`
