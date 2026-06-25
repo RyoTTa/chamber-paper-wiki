@@ -495,3 +495,21 @@
 - Created wiki page: `paper-wiki/papers/vault-reducing-paging-overheads-in-sgx-with-efficient-integrity-verification-structures.md`
 - Updated concepts: security
 - Tags: sgx, security, memory-integrity, paging, compression
+
+## [2026-06-26] ingest | HPCA 2018 | HeatWatch: Improving 3D NAND Flash Memory Device Reliability by Exploiting Self-Recovery and Temperature Awareness
+- Created paper summary: `paper-summaries/2018HPCA-summarize/heatwatch-improving-3d-nand-flash-memory-device-reliability-by-exploiting-self-recovery-and-temperature-awareness.md`
+- Created wiki page: `paper-wiki/papers/heatwatch-improving-3d-nand-flash-memory-device-reliability-by-exploiting-self-recovery-and-temperature-awareness.md`
+- Updated concepts: storage
+- Tags: nand-flash, reliability, self-recovery, temperature-awareness, read-reference-voltage
+
+## [2026-06-26] ingest | HPCA 2018 | Making Memristive Neural Network Accelerators Reliable
+- Created paper summary: `paper-summaries/2018HPCA-summarize/making-memristive-neural-network-accelerators-reliable.md`
+- Created wiki page: `paper-wiki/papers/making-memristive-neural-network-accelerators-reliable.md`
+- Updated concepts: pim
+- Tags: memristive, neural-network, error-correction, analog-computing, acceleration
+
+## [2026-06-26] ingest | HPCA 2018 | OuterSPACE: An Outer Product based Sparse Matrix Multiplication Accelerator
+- Created paper summary: `paper-summaries/2018HPCA-summarize/outerspace-an-outer-product-based-sparse-matrix-multiplication-accelerator.md`
+- Created wiki page: `paper-wiki/papers/outerspace-an-outer-product-based-sparse-matrix-multiplication-accelerator.md`
+- Updated concepts: pim
+- Tags: sparse-matrix, accelerator, parallel-processing, hbm, outer-product

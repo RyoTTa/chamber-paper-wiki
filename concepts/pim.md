@@ -28,6 +28,7 @@ Processing-in-Memory (PIM) integrates computation logic near or inside memory ar
 - Accelerating GCNs using crossbar-based PIM architectures ([accelerating-gcns-using-crossbar-based-processing-in-memory-architectures.md])
 - **Memristive Accelerators for Scientific Computing**: 메모리스트 크로스바에서 고정밀 부동소수점 연산 지원 — 지수 범위 국소성, 조기 종료, 정적 스케줄링 기법으로 GPU 대비 10.3배 성능 향상, 10.9배 에너지 절감 ([paper-summaries/2018ISCA-summarize/enabling-scientific-computing-on-memristive-accelerators.md])
 - **GraphR**: ReRAM 크로스바 기반 그래프 처리 가속기 — 아날로그 SpMV로 CPU 대비 16× speedup, 34× energy 절감 ([paper-summaries/2018HPCA-summarize/graphr-accelerating-graph-processing-using-reram.md])
+- **Memristive Neural Network Accelerators**: 산술 코드 기반 오류 수정으로 memristive 신경망 가속기의 아날로그 컴퓨팅 오류 해결 — 영역 4.5% 미만, 에너지 4.7% 미만 오버헤드로 MNIST 1.5배, ILSVRC-2012 1.1배 오류율 감소 ([paper-summaries/2018HPCA-summarize/making-memristive-neural-network-accelerators-reliable.md])
 
 ### Near-Data Processing (NDP)
 - **CoNDA**: Cache coherence support for near-data accelerators ([conda-efficient-cache-coherence-support-for-near-data-accelerators.md])
@@ -55,6 +56,7 @@ Processing-in-Memory (PIM) integrates computation logic near or inside memory ar
 - **TRiM**: Enhancing processor-memory interfaces with scalable tensor reduction in memory ([trim-enhancing-processor-memory-interfaces-with-scalable-tensor-reduction-in-memory.md])
 - **PLUTO**: Massively parallel computation in DRAM via lookup tables ([pluto-enabling-massively-parallel-computation-in-dram-via-lookup-tables.md])
 - **Google Workloads for Consumer Devices**: 소비자 디바이스에서의 데이터 이동 병목 해결 — PIM으로 평균 55.4% 에너지 절감, 54.2% 실행 시간 단축 ([paper-summaries/2018ASPLOS-summarize/google-workloads-for-consumer-devices-mitigating-data-movement-bottlenecks.md])
+- **OuterSPACE**: 외적 기반 희소 행렬 곱셈 가속기 — 곱셈과 축적 분리로 중복 메모리 접근 제거, Intel MKL 대비 7.9배, cuSPPARSE 대비 13.0배 속도 향상, 24W에서 2.9 GFLOPS ([paper-summaries/2018HPCA-summarize/outerspace-an-outer-product-based-sparse-matrix-multiplication-accelerator.md])
 
 ### Domain-Specific PIM
 - **PIM-VR**: Customized memory cube for virtual reality ([pim-vr-customized-memory-cube-for-virtual-reality.md])

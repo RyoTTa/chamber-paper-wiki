@@ -19,6 +19,7 @@ Storage research covers NAND flash memory and SSD technologies, focusing on perf
 - **Flash-Cosmos**: In-flash bulk bitwise operations using inherent NAND computation ([flash-cosmos-in-flash-bulk-bitwise-operations-using-inherent-computation-capability-of-nand-flash-memory.md])
 - **ParaBit**: Parallel bitwise operations in NAND flash SSDs ([parabit-parallel-bitwise-operations-in-nand-flash-memory-based-ssds.md])
 - **IDA Coding**: 비트 무효화 시 읽기 지연 시간을 감소시키는 고비트 밀도 플래시 코딩 — 전압 조정으로 MSB 읽기 4회→1-2회, CSB 읽기 2회→1회로 감소, TLC에서 28% 읽기 성능 향상 ([invalid-data-aware-coding-to-enhance-the-read-performance-of-high-density-flash-memories.md])
+- **HeatWatch**: 3D NAND 플래시에서 self-recovery 및 온도 효과를 최초로 특성화 — 새로운 신뢰성 모델(오차 4.9%) 개발, dwell time과 온도에 적응적 읽기 참조 전압 최적화로 플래시 수명 3.85배 향상 ([paper-summaries/2018HPCA-summarize/heatwatch-improving-3d-nand-flash-memory-device-reliability-by-exploiting-self-recovery-and-temperature-awareness.md])
 
 ### SSD Performance
 - **SOML Read**: Rethinking read granularity of 3D NAND SSDs ([soml-read-rethinking-read-granularity-of-3d-nand-ssds.md])
