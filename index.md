@@ -72,6 +72,10 @@
 - [[paper-wiki/papers/osiris-a-low-cost-mechanism-to-enable-restoration-of-secure-non-volatile-memories.md|Osiris]] ??보안 NVM의 저비용 복원 메커니즘 — 체크포인트 기반 빠른 복원 및 보안 유지 (MICRO '18)
 - [[paper-wiki/papers/ucnn-exploiting-computational-reuse-in-deep-neural-networks-via-weight-repetition.md|UCNN]] ??가중치 반복을 활용한 CNN 가속기 — 최대 3.7배 에너지 절감 (ISCA '18)
 - [[paper-wiki/papers/spandex-a-flexible-interface-for-efficient-heterogeneous-coherence.md|Spandex]] ??이기종 시스템을 위한 유연한 코히어런스 인터페이스 — 실행 시간 16% 절감 (ISCA '18)
+- [[paper-wiki/papers/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md|Espresso]] ??Java에서 NVM 활용을 위한 전체적인 시스템 — PJH와 PJO로 기존 프로그램 호환성 유지 (ASPLOS '18)
+- [[paper-wiki/papers/making-huge-pages-actually-useful.md|Making Huge Pages Actually Useful]] ??huge pages 단편화 문제 해결 — Illuminator로 compaction 비용 99% 감소 (ASPLOS '18)
+- [[paper-wiki/papers/mask-redesigning-the-gpu-memory-hierarchy-to-support-multi-application-concurrency.md|MASK]] ??GPU 멀티 애플리케이션 동시 실행을 위한 메모리 계층 재설계 — 시스템 처리량 57.8% 향상 (ASPLOS '18)
+- [[paper-wiki/papers/neofog-nonvolatility-exploiting-optimizations-for-fog-computing.md|NEOFog]] ??비휘발성을 활용한 퍼지 컴퓨팅 최적화 — 인포프로세싱 능력 4.2배 증가 (ASPLOS '18)
 
 ## Topic Coverage
 

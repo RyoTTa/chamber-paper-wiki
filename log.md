@@ -2,6 +2,24 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-25] ingest | ASPLOS 2018 | Making Huge Pages Actually Useful
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/making-huge-pages-actually-useful.md`
+- Created wiki page: `paper-wiki/papers/making-huge-pages-actually-useful.md`
+- Updated concepts: virtual-memory, memory-management
+- Tags: huge-pages, memory-management, address-translation, memory-compaction
+
+## [2026-06-25] ingest | ASPLOS 2018 | MASK: Redesigning the GPU Memory Hierarchy to Support Multi-Application Concurrency
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/mask-redesigning-the-gpu-memory-hierarchy-to-support-multi-application-concurrency.md`
+- Created wiki page: `paper-wiki/papers/mask-redesigning-the-gpu-memory-hierarchy-to-support-multi-application-concurrency.md`
+- Updated concepts: gpu, virtual-memory
+- Tags: gpu, virtual-memory, tlb, multi-application-concurrency
+
+## [2026-06-25] ingest | ASPLOS 2018 | NEOFog: Nonvolatility-Exploiting Optimizations for Fog Computing
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/neofog-nonvolatility-exploiting-optimizations-for-fog-computing.md`
+- Created wiki page: `paper-wiki/papers/neofog-nonvolatility-exploiting-optimizations-for-fog-computing.md`
+- Updated concepts: nvm, fog-computing
+- Tags: nvm, fog-computing, energy-harvesting, wireless-sensor-network
+
 ## [2026-06-25] ingest | ASPLOS 2018 | Espresso: Brewing Java For More Non-Volatility with Non-volatile Memory
 - Created paper summary: `paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
 - Created wiki page: `paper-wiki/papers/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
