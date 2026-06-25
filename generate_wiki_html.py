@@ -912,6 +912,18 @@ render();
     print(f"Generated: {OUTPUT}")
     print(f"Pages: {len(pages)} | Concepts: {sum(1 for p in pages if p['category'] == 'Concepts')}")
 
+    # Git commit & push
+    import subprocess
+    try:
+        subprocess.run(["git", "config", "user.name", "ryotta205"], cwd=WIKI_DIR, capture_output=True, check=True)
+        subprocess.run(["git", "config", "user.email", "ryotta205@users.noreply.github.com"], cwd=WIKI_DIR, capture_output=True, check=True)
+        subprocess.run(["git", "add", "-A"], cwd=WIKI_DIR, capture_output=True, check=True)
+        subprocess.run(["git", "commit", "--allow-empty", "-m", "Update wiki viewer"], cwd=WIKI_DIR, capture_output=True, check=False)
+        subprocess.run(["git", "push"], cwd=WIKI_DIR, capture_output=True, check=True)
+        print("  Git push OK")
+    except Exception as e:
+        print(f"  Git push failed: {e}")
+
 
 if __name__ == "__main__":
     import io
