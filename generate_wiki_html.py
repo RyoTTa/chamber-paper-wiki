@@ -167,84 +167,101 @@ def generate():
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Computer Architecture Wiki</title>
 <style>
+:root {{
+  --bg: #0f1419;
+  --bg-card: #1a1f2e;
+  --bg-hover: #252b3d;
+  --border: #2d3548;
+  --text: #e1e4eb;
+  --text-dim: #8892a4;
+  --accent: #58a6ff;
+  --accent2: #3fb950;
+  --accent3: #d29922;
+  --accent4: #f97583;
+  --code-bg: #161b26;
+  --header-bg: #0d1117;
+}}
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
 html, body {{ height: 100%; overflow: hidden; }}
-body {{ font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-       background: #f0f2f5; color: #1a1a2e; display: flex; flex-direction: column; }}
-.header {{ background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 18px 32px; flex-shrink: 0;
+body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+       background: var(--bg); color: var(--text); display: flex; flex-direction: column; }}
+.header {{ background: var(--header-bg); border-bottom: 1px solid var(--border); padding: 16px 32px; flex-shrink: 0;
            display: flex; align-items: center; justify-content: space-between; }}
-.header h1 {{ font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }}
-.header .stats {{ display: flex; gap: 12px; font-size: 13px; color: #94a3b8; }}
-.header .stats span {{ background: rgba(255,255,255,0.1); padding: 3px 12px; border-radius: 20px; font-weight: 500; }}
-.graph-btn {{ background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25);
-              color: #fff; padding: 6px 16px; border-radius: 8px; cursor: pointer; font-size: 13px;
+.header h1 {{ font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }}
+.header h1 span {{ color: var(--accent); }}
+.header .stats {{ display: flex; gap: 10px; font-size: 13px; color: var(--text-dim); }}
+.header .stats span {{ background: var(--bg-card); padding: 3px 12px; border-radius: 16px; font-weight: 500; border: 1px solid var(--border); }}
+.graph-btn {{ background: var(--bg-card); border: 1px solid var(--border);
+              color: var(--text-dim); padding: 6px 16px; border-radius: 8px; cursor: pointer; font-size: 13px;
               font-family: inherit; transition: all 0.15s; }}
-.graph-btn:hover {{ background: rgba(255,255,255,0.25); }}
-.graph-btn.active {{ background: #2563eb; border-color: #2563eb; }}
-.filters {{ display: flex; gap: 8px; padding: 12px 32px; background: #fff;
-           border-bottom: 1px solid #e2e8f0; flex-wrap: wrap; flex-shrink: 0; }}
-.filters input {{ flex: 1; min-width: 180px; padding: 6px 12px; border: 1px solid #cbd5e1;
-       border-radius: 8px; font-size: 13px; background: #f8fafc; color: #1e293b; font-family: inherit; }}
-.filters input:focus {{ outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }}
+.graph-btn:hover {{ background: var(--bg-hover); color: var(--text); }}
+.graph-btn.active {{ background: var(--accent); border-color: var(--accent); color: #fff; }}
+.filters {{ display: flex; gap: 8px; padding: 10px 32px; background: var(--bg-card);
+           border-bottom: 1px solid var(--border); flex-wrap: wrap; flex-shrink: 0; }}
+.filters input {{ flex: 1; min-width: 180px; padding: 6px 12px; border: 1px solid var(--border);
+       border-radius: 6px; font-size: 13px; background: var(--bg); color: var(--text); font-family: inherit; }}
+.filters input:focus {{ outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(88,166,255,0.15); }}
+.filters input::placeholder {{ color: var(--text-dim); }}
 .main {{ display: flex; flex: 1; overflow: hidden; }}
-.sidebar {{ width: 340px; min-width: 340px; overflow-y: auto; background: #fff;
-           border-right: 1px solid #e2e8f0; }}
+.sidebar {{ width: 340px; min-width: 340px; overflow-y: auto; background: var(--bg-card);
+           border-right: 1px solid var(--border); }}
 .sidebar .category-label {{ padding: 10px 18px 4px; font-size: 11px; font-weight: 700;
-       color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; background: #f8fafc;
-       border-bottom: 1px solid #f1f5f9; position: sticky; top: 0; z-index: 1; }}
-.sidebar .item {{ padding: 10px 18px; border-bottom: 1px solid #f1f5f9; cursor: pointer;
+       color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; background: var(--bg);
+       border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1; }}
+.sidebar .item {{ padding: 10px 18px; border-bottom: 1px solid var(--border); cursor: pointer;
        transition: all 0.12s; font-size: 13px; }}
-.sidebar .item:hover {{ background: #f0f7ff; }}
-.sidebar .item.active {{ background: #e0f2fe; border-left: 4px solid #2563eb; padding-left: 14px; }}
-.sidebar .item .title {{ font-weight: 600; color: #0f172a; font-size: 13px; line-height: 1.4; }}
-.sidebar .item .tags {{ font-size: 11px; color: #94a3b8; margin-top: 3px; }}
-.content {{ flex: 1; overflow-y: auto; padding: 28px 36px; background: #fff; display: flex; justify-content: center; }}
-.content .placeholder {{ color: #94a3b8; text-align: center; margin-top: 100px; font-size: 18px; line-height: 1.6; }}
+.sidebar .item:hover {{ background: var(--bg-hover); }}
+.sidebar .item.active {{ background: var(--bg-hover); border-left: 4px solid var(--accent); padding-left: 14px; }}
+.sidebar .item .title {{ font-weight: 600; color: var(--text); font-size: 13px; line-height: 1.4; }}
+.sidebar .item .tags {{ font-size: 11px; color: var(--text-dim); margin-top: 3px; }}
+.content {{ flex: 1; overflow-y: auto; padding: 28px 36px; background: var(--bg); display: flex; justify-content: center; }}
+.content .placeholder {{ color: var(--text-dim); text-align: center; margin-top: 100px; font-size: 18px; line-height: 1.6; }}
 .content .page {{ max-width: 860px; width: 100%; line-height: 1.8; }}
-.content .page h1 {{ font-size: 26px; margin-bottom: 12px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; }}
-.content .page h2 {{ font-size: 20px; margin: 24px 0 12px; border-bottom: 1px solid #e2e8f0;
-       padding-bottom: 6px; color: #1e293b; }}
-.content .page h3 {{ font-size: 17px; margin: 18px 0 8px; color: #334155; }}
-.content .page h4 {{ font-size: 15px; margin: 14px 0 6px; color: #475569; }}
-.content .page p {{ line-height: 1.8; margin: 8px 0; color: #334155; font-size: 15px; }}
-.content .page ul, .content .page ol {{ margin: 8px 0 8px 24px; line-height: 1.7; }}
-.content .page li {{ margin: 4px 0; font-size: 15px; color: #334155; }}
+.content .page h1 {{ font-size: 26px; margin-bottom: 12px; color: var(--text); border-bottom: 2px solid var(--border); padding-bottom: 12px; }}
+.content .page h2 {{ font-size: 20px; margin: 24px 0 12px; border-bottom: 1px solid var(--border);
+       padding-bottom: 6px; color: var(--accent); }}
+.content .page h3 {{ font-size: 17px; margin: 18px 0 8px; color: var(--accent2); }}
+.content .page h4 {{ font-size: 15px; margin: 14px 0 6px; color: var(--accent3); }}
+.content .page p {{ line-height: 1.8; margin: 8px 0; color: var(--text-dim); font-size: 15px; }}
+.content .page ul, .content .page ol {{ margin: 8px 0 8px 24px; line-height: 1.7; color: var(--text-dim); }}
+.content .page li {{ margin: 4px 0; font-size: 15px; }}
+.content .page strong {{ color: var(--text); }}
 .content .page table {{ border-collapse: collapse; margin: 12px 0; font-size: 14px; width: 100%; border-radius: 8px; overflow: hidden; }}
-.content .page th, .content .page td {{ border: 1px solid #e2e8f0; padding: 8px 12px; text-align: left; }}
-.content .page th {{ background: #f8fafc; font-weight: 600; color: #1e293b; }}
-.content .page code {{ background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 14px; color: #dc2626; }}
-.content .page pre {{ background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px;
-       overflow-x: auto; font-size: 14px; margin: 12px 0; line-height: 1.5; }}
+.content .page th, .content .page td {{ border: 1px solid var(--border); padding: 8px 12px; text-align: left; }}
+.content .page th {{ background: var(--bg-hover); font-weight: 600; color: var(--text); }}
+.content .page td {{ color: var(--text-dim); }}
+.content .page code {{ background: var(--code-bg); padding: 2px 6px; border-radius: 4px; font-size: 14px; color: var(--accent4); }}
+.content .page pre {{ background: var(--code-bg); color: var(--text); padding: 16px; border-radius: 8px;
+       border: 1px solid var(--border); overflow-x: auto; font-size: 14px; margin: 12px 0; line-height: 1.5; }}
 .content .page pre code {{ background: none; color: inherit; padding: 0; }}
-.content .page blockquote {{ border-left: 4px solid #2563eb; padding: 12px 16px; margin: 12px 0;
-       background: #f0f7ff; border-radius: 0 8px 8px 0; color: #1e40af; font-size: 14px; }}
-.content .page hr {{ border: none; border-top: 1px solid #e2e8f0; margin: 20px 0; }}
-.content .page strong {{ color: #0f172a; }}
-a.xref {{ color: #2563eb; text-decoration: none; font-weight: 500; border-bottom: 1px dashed #93c5fd;
+.content .page blockquote {{ border-left: 3px solid var(--accent); padding: 12px 16px; margin: 12px 0;
+       background: var(--bg-card); border-radius: 0 4px 4px 0; color: var(--text-dim); font-size: 14px; }}
+.content .page hr {{ border: none; border-top: 1px solid var(--border); margin: 20px 0; }}
+a.xref {{ color: var(--accent); text-decoration: none; font-weight: 500; border-bottom: 1px dashed rgba(88,166,255,0.4);
        transition: all 0.12s; }}
-a.xref:hover {{ border-bottom-style: solid; color: #1d4ed8; }}
-span.xref.broken {{ color: #dc2626; text-decoration: line-through; }}
+a.xref:hover {{ border-bottom-style: solid; color: #79c0ff; }}
+span.xref.broken {{ color: var(--accent4); text-decoration: line-through; }}
 .graph-panel {{ display: none; flex: 1; overflow: hidden; position: relative; }}
 .graph-panel.visible {{ display: flex; flex-direction: column; }}
-.graph-panel svg {{ flex: 1; width: 100%; background: #0f172a; }}
-.graph-panel .graph-legend {{ position: absolute; top: 16px; left: 16px; background: rgba(15,23,42,0.9);
-       border-radius: 10px; padding: 14px 18px; z-index: 10; border: 1px solid #1e293b; }}
-.graph-panel .graph-legend .legend-item {{ display: flex; align-items: center; gap: 8px; margin: 4px 0; font-size: 12px; color: #94a3b8; }}
+.graph-panel svg {{ flex: 1; width: 100%; background: var(--bg); }}
+.graph-panel .graph-legend {{ position: absolute; top: 16px; left: 16px; background: rgba(13,17,23,0.9);
+       border-radius: 10px; padding: 14px 18px; z-index: 10; border: 1px solid var(--border); }}
+.graph-panel .graph-legend .legend-item {{ display: flex; align-items: center; gap: 8px; margin: 4px 0; font-size: 12px; color: var(--text-dim); }}
 .graph-panel .graph-legend .legend-dot {{ width: 10px; height: 10px; border-radius: 50%; }}
 .graph-panel .graph-controls {{ position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
-       background: rgba(15,23,42,0.9); border-radius: 10px; padding: 10px 18px; z-index: 10;
-       display: flex; gap: 12px; align-items: center; border: 1px solid #1e293b; }}
-.graph-panel .graph-controls button {{ background: #1e293b; border: 1px solid #334155; color: #e2e8f0;
+       background: rgba(13,17,23,0.9); border-radius: 10px; padding: 10px 18px; z-index: 10;
+       display: flex; gap: 12px; align-items: center; border: 1px solid var(--border); }}
+.graph-panel .graph-controls button {{ background: var(--bg-card); border: 1px solid var(--border); color: var(--text);
        padding: 5px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-family: inherit; }}
-.graph-panel .graph-controls button:hover {{ background: #334155; }}
-.graph-panel .graph-controls button.active {{ background: #2563eb; border-color: #2563eb; }}
-.graph-panel .graph-info {{ position: absolute; top: 16px; right: 16px; background: rgba(15,23,42,0.9);
-       border-radius: 10px; padding: 10px 16px; z-index: 10; border: 1px solid #1e293b;
-       font-size: 12px; color: #94a3b8; max-width: 280px; }}
-.graph-panel .graph-info strong {{ color: #f472b6; }}
-.node-label {{ font-size: 11px; fill: #f1f5f9; pointer-events: none; text-anchor: middle; font-weight: 500; text-shadow: 0 1px 3px rgba(0,0,0,0.8); }}
+.graph-panel .graph-controls button:hover {{ background: var(--bg-hover); }}
+.graph-panel .graph-controls button.active {{ background: var(--accent); border-color: var(--accent); color: #fff; }}
+.graph-panel .graph-info {{ position: absolute; top: 16px; right: 16px; background: rgba(13,17,23,0.9);
+       border-radius: 10px; padding: 10px 16px; z-index: 10; border: 1px solid var(--border);
+       font-size: 12px; color: var(--text-dim); max-width: 280px; }}
+.graph-panel .graph-info strong {{ color: var(--accent4); }}
+.node-label {{ font-size: 11px; fill: var(--text); pointer-events: none; text-anchor: middle; font-weight: 500; text-shadow: 0 1px 3px rgba(0,0,0,0.8); }}
 .edge {{ stroke: #475569; stroke-width: 0.5; stroke-opacity: 0.25; }}
-.back-link {{ display: inline-block; margin-bottom: 16px; color: #2563eb; text-decoration: none;
+.back-link {{ display: inline-block; margin-bottom: 16px; color: var(--accent); text-decoration: none;
        font-size: 13px; cursor: pointer; }}
 .back-link:hover {{ text-decoration: underline; }}
 @media (max-width: 768px) {{
