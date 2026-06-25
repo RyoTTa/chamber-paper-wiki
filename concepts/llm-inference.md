@@ -1,0 +1,61 @@
+﻿---
+tags: [concept, llm, inference, transformer, kv-cache]
+source_count: 21
+last_updated: 2026-06-25
+---
+
+# LLM Inference
+
+## Summary
+
+Large Language Model (LLM) inference has become a major research focus as models grow to hundreds of billions of parameters. The key challenges are the memory bottleneck of KV caching, the distinct compute/memory profiles of prefill and decode phases, and the need for efficient serving infrastructure. Research spans algorithmic innovations (sparsity, quantization), system-level optimizations (phase splitting, scheduling), and hardware acceleration.
+
+## Key Ideas
+
+### Autoregressive Inference Phases
+- **Prefill Phase** (Prompt Processing): Processes all input tokens in parallel ??**compute-bound**, high GPU utilization, high power
+- **Decode Phase** (Token Generation): Generates tokens one-by-one ??**memory-bound**, low GPU utilization, low power
+- These phases have fundamentally different resource requirements, motivating phase-splitting approaches ([splitwise-efficient-generative-llm-inference-using-phase-splitting.md])
+
+### KV Cache Management
+- KV caching stores previously computed Key/Value tensors to avoid recomputation
+- KV cache size grows linearly with sequence length and batch size, often exceeding GPU memory
+- **ALISA**: Sparse Window Attention achieves 80% sparsity with <5% accuracy loss; 3-phase dynamic scheduling for GPU-CPU memory hierarchy ([alisa-accelerating-llm-inference-via-sparsity-aware-kv-caching.md])
+- **Splitwise**: Separates prefill and decode onto different machines; optimized KV-cache transfer via InfiniBand ([splitwise-efficient-generative-llm-inference-using-phase-splitting.md])
+- **KV compression**: INT8 quantization of KV tensors with negligible accuracy impact
+
+### LLM Inference Acceleration
+- **LLMCompass**: Enables efficient hardware design for LLM inference ([llmcompass-enabling-efficient-hardware-design-for-large-language-model-inference.md])
+- **MECLA**: Memory-compute-efficient LLM accelerator ([mecla-memory-compute-efficient-llm-accelerator.md])
+- **REDUCT**: Near-cache compute for DNN inference on multi-core CPUs ([reduct-near-cache-compute-for-dnn-inference-on-multi-core-cpus.md])
+- Sparse attention acceleration with synergistic in-memory pruning and on-chip recomputation ([sparse-attention-acceleration-with-synergistic-in-memory-pruning-and-on-chip-recomputation.md])
+- **GeneSys**: EA 기반 학습 시스템을 위한 HW-SW 프로토타입 — EvE(학습 가속기)와 ADAM(추론 가속기)로 2-5 orders of magnitude 에너지 효율성 향상 ([genesys-enabling-continuous-learning-through-neural-network-evolution-in-hardware.md])
+
+### Serving Systems
+- **Splitwise cluster design**: 3-tier machine pools (Prompt, Token, Mixed) with two-level scheduling (CLS + MLS)
+- **Heterogeneous clusters**: High-performance GPUs (H100) for prefill, lower-cost GPUs (A100) or power-capped GPUs for decode
+- **Provisioning framework**: Event-driven simulator exploring trade-offs in cost, power, throughput, and SLO satisfaction
+
+### Trends
+- LLM inference is increasingly a **memory problem** rather than a computation problem
+- Phase splitting enables significant throughput gains (1.4-3횞) and power reduction (25%)
+- Model parallelism (tensor/pipeline) across GPUs adds communication complexity
+- Speculative decoding, prefix caching, and continuous batching are complementary techniques
+
+## Related Papers
+
+- [alisa-accelerating-llm-inference-via-sparsity-aware-kv-caching.md]
+- [splitwise-efficient-generative-llm-inference-using-phase-splitting.md]
+- [llmcompass-enabling-efficient-hardware-design-for-large-language-model-inference.md]
+- [mecla-memory-compute-efficient-llm-accelerator.md]
+- [sparse-attention-acceleration-with-synergistic-in-memory-pruning-and-on-chip-recomputation.md]
+- [cxl-speckv-a-disaggregated-fpga-speculative-kv-cache.md]
+- [genesys-enabling-continuous-learning-through-neural-network-evolution-in-hardware.md]
+
+## Cross-references
+
+- [[paper-wiki/concepts/cache.md|Cache]] ??KV cache as a specialized cache
+- [[paper-wiki/concepts/pim.md|Processing-in-Memory]] ??PIM accelerators for LLM
+- [[paper-wiki/concepts/memory-tiering.md|Memory Tiering]] ??GPU memory hierarchy for LLM
+- [[paper-wiki/concepts/gpu.md|GPU]] ??GPU as primary LLM inference engine
+- [[paper-wiki/concepts/near-data-processing.md|Near-Data Processing]] ??NDP for LLM workloads

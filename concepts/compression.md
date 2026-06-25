@@ -1,0 +1,55 @@
+﻿---
+tags: [concept, compression, data-reduction, encoding]
+source_count: 11
+last_updated: 2026-06-25
+---
+
+# Compression
+
+## Summary
+
+Memory and storage compression research focuses on reducing data footprint to increase effective capacity and bandwidth. Techniques range from cache-line-level deduplication to hardware-software co-designed compression for disaggregated memory.
+
+## Key Ideas
+
+### Memory Compression
+- **BCD Deduplication**: Effective memory compression using partial cache-line deduplication ([bcd-deduplication-effective-memory-compression-using-partial-cache-line-deduplication.md])
+- **DyLeCT**: Achievement of huge-page-like translation performance for hardware-compressed memory ([dylect-achieving-huge-page-like-translation-performance-for-hardware-compressed-memory.md])
+- **Translation-Optimized Memory Compression**: Compression-aware address translation for capacity ([translation-optimized-memory-compression-for-capacity.md])
+
+### Storage Data Reduction
+- **FIDR**: Scalable storage for fine-grain inline data reduction ([fidr-scalable-storage-for-fine-grain-inline-data-reduction.md])
+- **CIDR**: Cost-effective in-line data reduction for SSD arrays ([cidr-a-cost-effective-in-line-data-reduction-system-for-terabit-per-second-scale-ssd-arrays.md])
+- **SMASH**: Co-designing software compression and HW indexing ([smash-co-designing-software-compression-and-hw-indexing.md])
+- **Dynamic Multi-Resolution Data Storage** ([dynamic-multi-resolution-data-storage.md])
+
+### Compression for CXL
+- **TRACE**: Unlocking effective CXL bandwidth via lossless compression ([trace-unlocking-effective-cxl-bandwidth-via-lossless-compression.md])
+- Compression as a way to overcome bandwidth limitations in disaggregated memory
+
+### OS-Transparent Main Memory Compression
+- **Compresso**: 데이터 이동 최적화를 통한 실용적 메인 메모리 압축 — OS 수정 없이 1.85× 압축률, LCP 대비 24-27% 성능 향상, 추가 메모리 접근 63%→15% 감소 ([paper-summaries/2018MICRO-summarize/compresso-pragmatic-main-memory-compression.md])
+
+### Metadata Bandwidth Mitigation
+- **Attaché**: BLEM과 COPR를 통해 데이터 압축 시 Metadata 접근 대역폭 오버헤드를 거의 완전히 제거 — Sub-Ranking 기반 시스템에서 이상적 압축 대비 89.6% 속도 향상 달성 ([paper-summaries/2018MICRO-summarize/attache-towards-ideal-memory-compression-by-mitigating-metadata-bandwidth-overheads.md])
+
+### KV Cache Compression
+- INT8 quantization of KV tensors for LLM inference (see [[paper-wiki/concepts/llm-inference.md|LLM Inference]])
+- Sparse attention as a form of selective compression
+
+## Related Papers
+
+- [bcd-deduplication-effective-memory-compression-using-partial-cache-line-deduplication.md]
+- [trace-unlocking-effective-cxl-bandwidth-via-lossless-compression.md]
+- [fidr-scalable-storage-for-fine-grain-inline-data-reduction.md]
+- [attache-towards-ideal-memory-compression-by-mitigating-metadata-bandwidth-overheads.md]
+- [compresso-pragmatic-main-memory-compression.md]
+
+- **PERM DNN**: 순열 대각 행렬 기반 DNN 압축 — EIE 대비 3.3~4.8배 처리량, CIRCNN 대비 11.51배 처리량 향상 ([paper-summaries/2018MICRO-summarize/permdnn-efficient-compressed-dnn-architecture-with-permuted-diagonal-matrices.md])
+
+## Cross-references
+
+- [[paper-wiki/concepts/llm-inference.md|LLM Inference]] ??KV cache compression
+- [[paper-wiki/concepts/storage.md|Storage]] ??Storage data reduction
+- [[paper-wiki/concepts/memory-tiering.md|Memory Tiering]] ??Compression for CXL
+- [[paper-wiki/concepts/cache.md|Cache]] ??Compressed caches
