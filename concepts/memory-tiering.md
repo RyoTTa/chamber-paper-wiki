@@ -54,6 +54,7 @@ Memory tiering manages multiple memory technologies with different performance/c
 - [jenga-responsive-tiered-memory-management-without-thrashing.md]
 - [chameleon-a-dynamically-reconfigurable-heterogeneous-memory-system.md]
 - [beyond-the-memory-wall-a-case-for-memory-centric-hpc-system-for-deep-learning.md]
+- [3676642-3736119.md] - HybridTier: Adaptive CXL-memory tiering with dual-metric tracking
 
 ## Cross-references
 

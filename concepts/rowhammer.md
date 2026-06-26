@@ -60,6 +60,7 @@ RowHammer is a DRAM disturbance vulnerability where repeatedly activating a row 
 - [graphene-strong-yet-lightweight-row-hammer-protection.md] ??Graphene hybrid protection
 - [randomized-row-swap-mitigating-row-hammer-by-breaking-spatial-correlation.md] ??Row-swap mitigation
 - [twice-preventing-row-hammering-by-exploiting-time-window-counters.md] ??TWiCe counter-based
+- [3779212-3790126.md] - APT: Adaptive probabilistic in-DRAM trackers with reservoir sampling
 
 ## Cross-references
 

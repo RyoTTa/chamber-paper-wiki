@@ -51,6 +51,7 @@ Large Language Model (LLM) inference has become a major research focus as models
 - [sparse-attention-acceleration-with-synergistic-in-memory-pruning-and-on-chip-recomputation.md]
 - [cxl-speckv-a-disaggregated-fpga-speculative-kv-cache.md]
 - [genesys-enabling-continuous-learning-through-neural-network-evolution-in-hardware.md]
+- [fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md] - Iteration-level preemptive scheduling for LLM inference
 
 ## Cross-references
 

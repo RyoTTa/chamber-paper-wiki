@@ -59,6 +59,7 @@ DRAM (Dynamic Random Access Memory) is the primary main memory technology in mod
 - [dve-improving-dram-reliability-and-performance-on-demand-via-coherent-replication.md] ??Coherent replication for DRAM reliability
 - [farewell-my-shared-llc-a-case-for-private-die-stacked-dram-caches-for-servers.md] ??Die-stacked DRAM for private LLC
 - [synergy-rethinking-secure-memory-design-for-error-correcting-memories.md] ??Security-reliability co-design for ECC-DIMM
+- [3779212-3790126.md] - APT: Adaptive probabilistic in-DRAM trackers for read disturbance mitigation
 
 ## Cross-references
 

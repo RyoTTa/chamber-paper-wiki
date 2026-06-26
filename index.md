@@ -27,6 +27,10 @@
 
 ## Papers (Recent)
 
+- [[paper-wiki/papers/fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md|FastServe]] — LLM 추론을 위한 iteration-level 선점형 스케줄링 — vLLM 대비 최대 6.1× throughput 향상 (NSDI '26)
+- [[paper-wiki/papers/3676642-3736119.md|HybridTier]] — 적응형 CXL 메모리 tiering 시스템 — Memtis 대비 29% 성능 향상, 3.2× 빠른 적응 (ASPLOS '25)
+- [[paper-wiki/papers/3779212-3790121.md|CXL Programming Model]] — CXL 위 분산 메모리 위한 최초의 formal programming model (ASPLOS '26)
+- [[paper-wiki/papers/3779212-3790126.md|APT]] — 적응형 확률적 in-DRAM tracker로 DRAM read disturbance 방어 — 0% slowdown, TRH 694 (ASPLOS '26)
 - [[paper-wiki/papers/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md|Lazy Persistency]] — 캐시 자연적 퇴출 기반 NVM 영속성 — Eager 대비 실행 9%→1%, 쓰기증폭 21%→3% (ISCA '18)
 - [[paper-wiki/papers/seesaw-using-superpages-to-improve-vipt-caches.md|SEESAW]] — Superpage 활용 VIPT 캐시 associativity 극복 — 2MB superpage에서 way 감소로 latency/energy 절감 (ISCA '18)
 - [[paper-wiki/papers/snapea-predictive-early-activation-for-reducing-computation-in-deep-convolutional-neural-networks.md|SnaPEA]] — ReLU 특성 활용 조기 활성화 — Exact: 28% speedup, Predictive: 최대 3.59× speedup (ISCA '18)

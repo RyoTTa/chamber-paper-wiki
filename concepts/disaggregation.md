@@ -46,6 +46,7 @@ Memory and storage disaggregation separates compute, memory, and storage into in
 - [software-defined-far-memory-in-warehouse-scale-computers.md]
 - [thymesisflow-a-software-defined-hw-sw-co-designed-interconnect-stack-for-rack-scale-memory-disaggregation.md]
 - [tmo-transparent-memory-offloading-in-datacenters.md]
+- [3779212-3790121.md] - A Programming Model for Disaggregated Memory over CXL
 
 ## Cross-references
 

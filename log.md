@@ -2,6 +2,26 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-26] ingest | NSDI 2026 | FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference
+- Created wiki page: `paper-wiki/papers/fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md`
+- Updated concepts: llm-inference, gpu
+- Tags: paper, 2026, 2026NSDI, topic/llm, topic/ai, topic/scheduling, topic/gpu
+
+## [2026-06-26] ingest | ASPLOS 2025 | HybridTier: an Adaptive and Lightweight CXL-Memory Tiering System
+- Created wiki page: `paper-wiki/papers/3676642-3736119.md`
+- Updated concepts: memory-tiering, disaggregation, dram, cache, virtual-memory
+- Tags: paper, 2026, 2026ASPLOS, topic/cache, topic/disaggregation, topic/dram, topic/memory-tiering, topic/virtual-memory
+
+## [2026-06-26] ingest | ASPLOS 2026 | A Programming Model for Disaggregated Memory over CXL
+- Created wiki page: `paper-wiki/papers/3779212-3790121.md`
+- Updated concepts: disaggregation, memory-tiering
+- Tags: paper, 2026, 2026ASPLOS, topic/disaggregation, topic/memory-tiering
+
+## [2026-06-26] ingest | ASPLOS 2026 | APT: Securing Against DRAM Read Disturbance via Adaptive Probabilistic In-DRAM Trackers
+- Created wiki page: `paper-wiki/papers/3779212-3790126.md`
+- Updated concepts: dram, rowhammer, security
+- Tags: paper, 2026, 2026ASPLOS, topic/dram, topic/rowhammer, topic/security
+
 ## [2026-06-26] ingest | HPCA 2018 | Reducing Data Transfer Energy by Exploiting Similarity within a Data Transaction
 - Created paper summary: `paper-summaries/2018HPCA-summarize/reducing-data-transfer-energy-by-exploiting-similarity-within-a-data-transaction.md`
 - Created wiki page: `paper-wiki/papers/reducing-data-transfer-energy-by-exploiting-similarity-within-a-data-transaction.md`
