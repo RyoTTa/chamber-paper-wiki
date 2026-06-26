@@ -581,7 +581,7 @@
 - Tags: puf, dram, security, reliability
 
 ## [2026-06-26] ingest | ASPLOS 2018 | Espresso: Brewing Java For More Non-Volatility with Non-volatile Memory
-- Created paper summary: `paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
-- Created wiki page: `paper-wiki/papers/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/espresso-java-non-volatile-memory.md`
+- Created wiki page: `paper-wiki/papers/espresso-java-non-volatile-memory.md`
 - Updated concepts: nvm
-- Tags: nvm, java, persistent-memory, crash-consistency, garbage-collection
+- Tags: nvm, java, persistent-memory, crash-consistency, managed-runtime
