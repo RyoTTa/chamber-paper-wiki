@@ -21,6 +21,7 @@ Non-Volatile Memory (NVM), also known as persistent memory or storage-class memo
 - **MOD**: Minimally ordered durable datastructures ([mod-minimally-ordered-durable-datastructures-for-persistent-memory.md])
 - **DHTM**: 최초의 완전한 하드웨어 ACID 트랜잭션 메모리 솔루션 — 상용 HTM + 하드웨어 redo 로깅 결합, L1→LLC 오버플로우 지원, 기존 기술 대비 21%~25% 성능 향상 ([paper-summaries/2018ISCA-summarize/dhtm-durable-hardware-transactional-memory.md])
 - **Lazy Persistency**: 캐시의 자연적 퇴출을 통해 NVM으로 데이터 전송 — Eager Persistency 대비 실행 시간 9%→1%, 쓰기 증폭 21%→3%로 대폭 감소. Modular Checksum으로 오류 탐지(2×10⁻⁹ 미만), 재계산 기반 복구 ([paper-summaries/2018ISCA-summarize/lazy-persistency-a-high-performing-and-write-efficient-software-persistency-technique.md])
+- **Steal but No Force**: 하드웨어 undo+redo 로깅을 통한 영속 메모리 시스템 성능 및 에너지 효율성 향상 — 쓰기 순서 제어 완화로 시스템 처리량 증가, 메모리 트래픽 감소 ([paper-summaries/2018HPCA-summarize/steal-but-no-force-efficient-hardware-undoredo-logging-for-persistent-memory-systems.md])
 
 ### Programming Models and Software
 - **Espresso**: Java에서 NVM 활용 통합 지속성 프레임워크 — PJH(Persistent Java Heap)와 PJO(Persistent Java Object)로 기존 프로그램 호환성 유지 + 최대 256x speedup ([paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md])

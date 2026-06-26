@@ -555,3 +555,27 @@
 - Created wiki page: `paper-wiki/papers/reliability-aware-data-placement-for-heterogeneous-memory-architecture.md`
 - Updated concepts: hybrid-memory, dram, memory-tiering
 - Tags: heterogeneous-memory, reliability, data-placement, avf, hotness-risk-quadrant
+
+## [2026-06-26] ingest | ASPLOS 2018 | Espresso: Brewing Java For More Non-Volatility with Non-volatile Memory
+- Created paper summary: `paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
+- Created wiki page: `paper-wiki/papers/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md`
+- Updated concepts: nvm
+- Tags: nvm, java, persistence, crash-consistency
+
+## [2026-06-26] ingest | HPCA 2018 | Secure DIMM: Moving ORAM Primitives Closer to Memory
+- Created paper summary: `paper-summaries/2018HPCA-summarize/secure-dimm-moving-oram-primitives-closer-to-memory.md`
+- Created wiki page: `paper-wiki/papers/secure-dimm-moving-oram-primitives-closer-to-memory.md`
+- Updated concepts: security
+- Tags: oram, security, memory-systems, privacy
+
+## [2026-06-26] ingest | HPCA 2018 | Steal but No Force: Efficient Hardware Undo+Redo Logging for Persistent Memory Systems
+- Created paper summary: `paper-summaries/2018HPCA-summarize/steal-but-no-force-efficient-hardware-undoredo-logging-for-persistent-memory-systems.md`
+- Created wiki page: `paper-wiki/papers/steal-but-no-force-efficient-hardware-undoredo-logging-for-persistent-memory-systems.md`
+- Updated concepts: nvm
+- Tags: persistent-memory, logging, crash-consistency, hardware
+
+## [2026-06-26] ingest | HPCA 2018 | The DRAM Latency PUF: Quickly Evaluating Physical Unclonable Functions by Exploiting the Latency-Reliability Tradeoff in Modern Commodity DRAM Devices
+- Created paper summary: `paper-summaries/2018HPCA-summarize/the-dram-latency-puf-quickly-evaluating-physical-unclonable-functions-by-exploiting-the-latency-reliability-tradeoff-in-modern-commodity-dram-devices.md`
+- Created wiki page: `paper-wiki/papers/the-dram-latency-puf-quickly-evaluating-physical-unclonable-functions-by-exploiting-the-latency-reliability-tradeoff-in-modern-commodity-dram-devices.md`
+- Updated concepts: security
+- Tags: puf, dram, security, reliability

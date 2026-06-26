@@ -34,6 +34,8 @@ Memory security research covers memory encryption, trusted execution environment
 - Cross-user-kernel-boundary RowHammer attacks ([pthammer-cross-user-kernel-boundary-rowhammer-through-implicit-accesses.md])
 - **Shadow Block**: ORAM 보안 유지하면서 데이터 블록 조기 접근 — RD-Dup/HD-Dup 동적 결합으로 성능 향상 ([paper-summaries/2018MICRO-summarize/shadow-block-accelerating-oram-accesses-with-data-duplication.md])
 - **RCoal**: GPU 타이밍 공격 완화를 위한 서브워프 기반 무작위화된 코얼레싱 기법 — FSS, RSS, RTS 조합으로 24~961배 보안 향상, 5~28% 성능 저하 ([paper-summaries/2018HPCA-summarize/rcoal-mitigating-gpu-timing-attack-via-subwarp-based-randomized-coalescing-techniques.md])
+- **Secure DIMM**: ORAM 기능을 메모리 시스템으로 이동하여 프라이버시 보장 — SDIMM을 통한 성능 1.9배, 에너지 2.55배 향상 ([paper-summaries/2018HPCA-summarize/secure-dimm-moving-oram-primitives-closer-to-memory.md])
+- **DRAM Latency PUF**: 소프트웨어 전용 시스템 호출을 통한 빠르고 신뢰할 수 있는 PUF 평가 — 기존 DRAM 유지보수 PUF 대비 152-1426배 속도 향상 ([paper-summaries/2018HPCA-summarize/the-dram-latency-puf-quickly-evaluating-physical-unclonable-functions-by-exploiting-the-latency-reliability-tradeoff-in-modern-commodity-dram-devices.md])
 
 ### Power Side-Channel Defense
 - **Blinking**: 정보 유출의 시간적 비균일성을 활용한 Computational Blinking — 15~30% 구간 보호로 75%+ mutual information 차단, 소프트웨어 제어형 전력 채널 방어 ([paper-summaries/2018ISCA-summarize/hiding-intermittent-information-leakage-with-architectural-support-for-blinking.md])

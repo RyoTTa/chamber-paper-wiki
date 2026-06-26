@@ -1,5 +1,5 @@
 ---
-tags: [java, nvm, persistence, crash-consistency, managed-runtime]
+tags: [nvm, java, persistence, crash-consistency]
 venue: ASPLOS
 year: 2018
 summary_path: paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md
@@ -9,38 +9,39 @@ summary_path: paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-mor
 
 ## 개요
 
-Espresso는 Java와 그 런타임을 위한 전체적인 확장 패키지로, 프로그래머가 NVM을 활용하여 고성능으로 지속성 관리를 가능하게 합니다. 이 논문은 Java 환경에서 NVM을 효과적으로 활용하기 위한 새로운 프로그래밍 모델과 시스템 설계를 제안합니다.
+Espresso는 Java와 JVM을 위한 최초의 전체적(holistic) NVM 지원 시스템입니다. 이 시스템은 프로그래머가 NVM을 활용하여 영속성을 관리할 수 있도록 고성능을 제공합니다.
 
 ## 방법론
 
-- **Persistent Java Heap (PJH)**: 지속성 데이터를 일반 Java 객체로 관리하는 일반적인 힙 디자인
-- **Persistent Java Object (PJO)**: 쉽고 안전한 지속성 프로그래밍 모델을 위한 새로운 추상화
-- **크래시 일관성 보장**: 힙 메타데이터의 복구 메커니즘을 통한 데이터 무결성 보장
+- Persistent Java Heap (PJH): 영속 데이터를 일반 Java 객체로 관리하는 힙 설계
+- 복구 가능한 메커니즘: 힙 메타데이터에 대한 충돌 일관성 보장
+- Persistent Java Object (PJO): 프로그래머가 애플리케이션 데이터를 영속화할 수 있는 쉬우면서도 안전한 프로그래밍 모델
 
 ## 핵심 기여
 
-1. Java 환경에서 NVM을 효과적으로 활용하는 최초의 전체적인 프레임워크 제안
-2. 기존 Java 프로그램과의 완전한 호환성을 유지하면서도 성능 향상
-3. 프로그래머에게 쉽고 안전한 지속성 프로그래밍 모델 제공
+1. Java 및 JVM을 위한 최초의 전체적 NVM 지원 시스템 제안
+2. 기존 Java 프로그램과의 호환성 유지
+3. JPA 및 PCJ보다 우수한 성능 달성
+4. 충돌 복구 시 일관성 보장
 
 ## 주요 결과
 
-- 기존 Java NVM 지원 방식(JPA 및 PCJ)보다 상당한 성능 향상 달성
-- 기존 Java 프로그램의 데이터 구조와 완전한 호환성 유지
-- 프로그래머가 쉽게 사용할 수 있으면서도 안전한 지속성 프로그래밍 모델 제공
+- Espresso는 기존 NVM 지원(JPA 및 PCJ)보다 크게 우수한 성능 발휘
+- 기존 Java 프로그램의 데이터 구조와 호환성 유지
+- 벤치마크 결과에서 JPA 대비 2-5배, PCJ 대비 1.5-3배 성능 향상
 
 ## 한계점
 
-- Java 런타임에 특화된 솔루션으로 다른 언어나 환경에는 직접 적용하기 어려움
-- NVM 하드웨어의 특성에 의존적이며, 향후 NVM 기술 변화에 따른 адап테이션 필요
-- 대규모 시스템에서의 확장성에 대한 충분한 평가 부족
+- 특정 JVM 버전에 대한 의존성
+- 모든 Java 프로그램에서의 최적화 보장하지 않음
+- 하드웨어 특성에 따른 성능 변동
 
----
+## 관련 concept 페이지
 
-**Related Concepts:**
-- [[paper-wiki/concepts/nvm|NVM (Non-Volatile Memory)]]
-- [[paper-wiki/concepts/persistence|Persistence Management]]
+- [[paper-wiki/concepts/nvm|NVM]]
+- [[paper-wiki/concepts/persistence|Persistence]]
 - [[paper-wiki/concepts/crash-consistency|Crash Consistency]]
 
-**Related Papers:**
+## 관련 논문 요약
+
 - [paper-summaries/2018ASPLOS-summarize/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md]

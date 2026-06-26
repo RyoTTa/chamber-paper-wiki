@@ -106,6 +106,10 @@
 - [[paper-wiki/papers/eruca-efficient-dram-resource-utilization-and-resource-conflict-avoidance-for-memory-system-parallelism.md|ERUCA]] ??효율적인 서브뱅킹으로 DRAM 리소스 충돌 방지 — 15% 성능 향상, <0.3% 면적 오버헤드 (HPCA '18)
 - [[paper-wiki/papers/reliability-aware-data-placement-for-heterogeneous-memory-architecture.md|Reliability-Aware Data Placement]] ??HMA에서 AVF 기반 hotness-risk quadrant 분석으로 신뢰성 향상 — static 1.6×, dynamic 1.5×, annotation 1.3× reliability 향상 (HPCA '18)
 - [[paper-wiki/papers/reducing-data-transfer-energy-by-exploiting-similarity-within-a-data-transaction.md|Base+XOR Transfer]] ??트랜잭션 내 데이터 유사성 활용 XOR 인코딩으로 POD I/O 에너지 절감 — 1값 35.3% 감소, DRAM 에너지 5.8% 절감, DBI 결합 시 48.2% 감소 (HPCA '18)
+- [[paper-wiki/papers/espresso-brewing-java-for-more-non-volatility-with-non-volatile-memory.md|Espresso]] ??Java에서 NVM 활용 통합 지속성 프레임워크 — PJH와 PJO로 기존 프로그램 호환성 유지 + 최대 256x speedup (ASPLOS '18)
+- [[paper-wiki/papers/secure-dimm-moving-oram-primitives-closer-to-memory.md|Secure DIMM]] ??ORAM 기능을 메모리 시스템으로 이동하여 프라이버시 보장 — SDIMM을 통한 성능 1.9배, 에너지 2.55배 향상 (HPCA '18)
+- [[paper-wiki/papers/steal-but-no-force-efficient-hardware-undoredo-logging-for-persistent-memory-systems.md|Steal but No Force]] ??하드웨어 undo+redo 로깅을 통한 영속 메모리 시스템 성능 및 에너지 효율성 향상 (HPCA '18)
+- [[paper-wiki/papers/the-dram-latency-puf-quickly-evaluating-physical-unclonable-functions-by-exploiting-the-latency-reliability-tradeoff-in-modern-commodity-dram-devices.md|DRAM Latency PUF]] ??소프트웨어 전용 시스템 호출을 통한 빠르고 신뢰할 수 있는 PUF 평가 — 기존 DRAM 유지보수 PUF 대비 152-1426배 속도 향상 (HPCA '18)
 
 
 ## Topic Coverage
