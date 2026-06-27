@@ -605,3 +605,9 @@
 - Created wiki page: `paper-wiki/papers/espresso-java-non-volatile-memory.md`
 - Updated concepts: nvm
 - Tags: nvm, java, persistent-memory, crash-consistency, managed-runtime
+
+## [2026-06-27] scheduled-task | Status Check | All Papers Complete
+- Ran paper_status.py: 439/439 papers summarized (0% missing)
+- Generated paper-viewer/index.html (439 papers, 18 topics)
+- Generated wiki-viewer.html (479 pages, 17 concepts)
+- No new papers to process
