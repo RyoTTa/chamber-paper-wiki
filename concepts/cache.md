@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, cache, prefetching, replacement, llc]
-source_count: 16
-last_updated: 2026-06-26
+source_count: 17
+last_updated: 2026-06-30
 ---
 
 # Cache
@@ -47,6 +47,7 @@ Cache research covers caching policy, prefetching, replacement algorithms, and n
 - **LATTE-CC**: GPU의 동적 레이턴시 내성 특성을 활용한 적응형 캐시 압축 관리 기법 — 세 가지 압축 모드(비압축, 저레이턴시, 고용량)를 동적으로 선택하여 캐시 민감 GPGPU 애플리케이션의 성능을 최대 48.4% 향상, 에너지 소비를 평균 10% 절감 ([paper-summaries/2018HPCA-summarize/latte-cc-latency-tolerance-aware-adaptive-cache-compression-management-for-energy-efficient-gpus.md])
 - **Attaché**: 메모리 압축 시 메타데이터 대역폭 오버헤드 제거 기법 (MICRO '18)
 - **Compresso**: OS-투명 메인 메모리 압축 기법 (MICRO '18)
+- **Touché**: 태그 영역 오버헤드 없이 임의 주소 압축 블록 배치 — 축약된 시그니처(9비트)로 여러 태그를 하나의 태그 엔트리에 저장, TADA 메커니즘으로 전체 태그를 데이터 배열에 저장, 평균 12% 가속 (이상적 13%), 최대 91% 가속(gcc) ([paper-summaries/2019MICRO-summarize/touch-towards-ideal-and-efficient-cache-compression-by-mitigating-tag-area-overheads.md])
 
 ### Near-Cache Computing
 - Processing near the cache hierarchy to reduce data movement

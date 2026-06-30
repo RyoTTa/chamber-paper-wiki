@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, pim, near-data, processing-in-memory]
-source_count: 44
-last_updated: 2026-06-25
+source_count: 45
+last_updated: 2026-06-30
 ---
 
 # Processing-in-Memory
@@ -64,6 +64,9 @@ Processing-in-Memory (PIM) integrates computation logic near or inside memory ar
 - **eAP**: Scalable in-memory accelerator for automata processing ([eap-scalable-in-memory-accelerator-for-automata-processing.md])
 - **BioPIM**: Processing-in-memory for genomics workloads ([biopim-processing-in-memory-for-genomics-workloads.md])
 - **SparseAP**: 프로파일링 기반 핫/콜드 상태 예측으로 대규모 NFA 애플리케이션을 효율적 처리 — 기하평균 2.1×(최대 47×) 속도 향상 ([architectural-support-for-efficient-large-scale-automata-processing.md])
+
+### PIM Interconnect
+- **PIMnet**: PIM 뱅크 간 직접 연결을 제공하는 도메인 특화 네트워크 — 호스트 CPU 통신 병목 제거, AllReduce 최대 85배 가속, 실제 애플리케이션 11.8배 성능 향상 ([paper-summaries/2025HPCA-summarize/pimnet-a-domain-specific-network-for-efficient-collective-communication-in-scalable-pim.md])
 
 ### GPU + PIM
 - Improving address translation in multi-GPUs with PIM concepts

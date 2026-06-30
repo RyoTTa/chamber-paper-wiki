@@ -2,6 +2,21 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-30] ingest | HPCA 2025 | PIMnet: A Domain-Specific Network for Efficient Collective Communication in Scalable PIM
+- Created wiki page: `paper-wiki/papers/pimnet-a-domain-specific-network-for-efficient-collective-communication-in-scalable-pim.md`
+- Updated concepts: pim
+- Tags: paper, 2025, 2025HPCA, topic/pim, topic/interconnect
+
+## [2026-06-30] ingest | OSDI 2025 | WaferLLM: Large Language Model Inference at Wafer Scale
+- Created wiki page: `paper-wiki/papers/20260630-064008-waferllm-large-language-model-inference-at-wafer-scale.md`
+- Updated concepts: llm-inference
+- Tags: paper, 2025, 2025OSDI, topic/llm, topic/accelerator, topic/gpu
+
+## [2026-06-30] ingest | MICRO 2019 | Touché: Towards Ideal and Efficient Cache Compression By Mitigating Tag Area Overheads
+- Created wiki page: `paper-wiki/papers/touch-towards-ideal-and-efficient-cache-compression-by-mitigating-tag-area-overheads.md`
+- Updated concepts: cache
+- Tags: paper, 2019, 2019MICRO, topic/cache, topic/compression
+
 ## [2026-06-30] ingest | ASPLOS 2026 | ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression
 - Created wiki page: `paper-wiki/papers/zipserv-fast-and-memory-efficient-llm-inference-with-hardware-aware-lossless-compression.md`
 - Updated concepts: llm-inference, compression, gpu

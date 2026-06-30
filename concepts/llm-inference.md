@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, llm, inference, transformer, kv-cache]
-source_count: 21
-last_updated: 2026-06-25
+source_count: 22
+last_updated: 2026-06-30
 ---
 
 # LLM Inference
@@ -30,6 +30,9 @@ Large Language Model (LLM) inference has become a major research focus as models
 - **REDUCT**: Near-cache compute for DNN inference on multi-core CPUs ([reduct-near-cache-compute-for-dnn-inference-on-multi-core-cpus.md])
 - Sparse attention acceleration with synergistic in-memory pruning and on-chip recomputation ([sparse-attention-acceleration-with-synergistic-in-memory-pruning-and-on-chip-recomputation.md])
 - **GeneSys**: EA 기반 학습 시스템을 위한 HW-SW 프로토타입 — EvE(학습 가속기)와 ADAM(추론 가속기)로 2-5 orders of magnitude 에너지 효율성 향상 ([genesys-enabling-continuous-learning-through-neural-network-evolution-in-hardware.md])
+
+### Wafer-Scale LLM Inference
+- **WaferLLM**: 최초의 웨이퍼 스케일 LLM 추론 시스템 — PLMR 모델로 수백만 코어 병렬성, MeshGEMM/MeshGEMV로 비균일 지연시간 해결, A100 대비 GEMV 606배 가속, 멀티-GPU 대비 LLM 추론 10~20배 가속 ([paper-summaries/2025OSDI-summarize/20260630-064008-waferllm-large-language-model-inference-at-wafer-scale.md])
 
 ### Serving Systems
 - **Splitwise cluster design**: 3-tier machine pools (Prompt, Token, Mixed) with two-level scheduling (CLS + MLS)
