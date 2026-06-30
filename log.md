@@ -611,3 +611,6 @@
 - Generated paper-viewer/index.html (439 papers, 18 topics)
 - Generated wiki-viewer.html (479 pages, 17 concepts)
 - No new papers to process
+
+## [2026-06-30] classify | OSDI | WaferLLM: Large Language Model Inference at Wafer Scale | UPLOADED → 2025OSDI/
+## [2026-06-30] classify | HPCA | PIMnet: A Domain-Specific Network for Efficient Collective Communication in Scalable PIM | UPLOADED → 2025HPCA/
