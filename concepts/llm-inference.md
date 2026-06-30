@@ -41,7 +41,7 @@ Large Language Model (LLM) inference has become a major research focus as models
 - **Splitwise cluster design**: 3-tier machine pools (Prompt, Token, Mixed) with two-level scheduling (CLS + MLS)
 - **Heterogeneous clusters**: High-performance GPUs (H100) for prefill, lower-cost GPUs (A100) or power-capped GPUs for decode
 - **Provisioning framework**: Event-driven simulator exploring trade-offs in cost, power, throughput, and SLO satisfaction
-- **LLMServingSim 2.0**: 이종적이고 분리된 LLM 서빙 인프라를 위한 통합 시뮬레이터 — 런타임 기반 하드웨어-소프트웨어 상호작용 모델링, 평균 오차 0.95%로 성능/메모리/전력 지표 재현 ([paper-summaries/2026ISPASS-summarize/llmservingSim-2.0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md])
+- **LLMServingSim 2.0**: 이종적이고 분리된 LLM 서빙 인프라를 위한 통합 시뮬레이터 — 런타임 기반 하드웨어-소프트웨어 상호작용 모델링, 평균 오차 0.95%로 성능/메모리/전력 지표 재현, 시뮬레이션 시간 약 10분 유지 ([paper-summaries/TEMP-summarize/llmservingsim-2-0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md])
 
 ### Trends
 - LLM inference is increasingly a **memory problem** rather than a computation problem
@@ -59,6 +59,7 @@ Large Language Model (LLM) inference has become a major research focus as models
 - [cxl-speckv-a-disaggregated-fpga-speculative-kv-cache.md]
 - [genesys-enabling-continuous-learning-through-neural-network-evolution-in-hardware.md]
 - [fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md] - Iteration-level preemptive scheduling for LLM inference
+- [paper-summaries/TEMP-summarize/llmservingsim-2-0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md] - LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure
 
 ## Cross-references
 

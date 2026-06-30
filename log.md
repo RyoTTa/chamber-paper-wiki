@@ -2,6 +2,11 @@
 
 > Chronological record of wiki operations.
 
+## [2026-07-01] ingest | ISPASS 2026 | LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure
+- Created wiki page: `paper-wiki/papers/llmservingsim-2-0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md`
+- Updated concepts: llm-inference
+- Tags: paper, 2026, 2026TEMP, topic/llm, topic/simulation, topic/heterogeneous
+
 ## [2026-06-30] ingest | DAC 2025 | PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup
 - Created wiki page: `paper-wiki/papers/pimpal-accelerating-llm-inference-on-edge-devices-via-in-dram-arithmetic-lookup.md`
 - Updated concepts: pim, llm-inference
