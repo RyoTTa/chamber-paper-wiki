@@ -28,6 +28,9 @@
 ## Papers (Recent)
 
 - [[paper-wiki/papers/fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md|FastServe]] — LLM 추론을 위한 iteration-level 선점형 스케줄링 — vLLM 대비 최대 6.1× throughput 향상 (NSDI '26)
+- [[paper-wiki/papers/zipserv-fast-and-memory-efficient-llm-inference-with-hardware-aware-lossless-compression.md|ZipServ]] — GPU 아키텍처 공동설계 무손실 압축 LLM 추론 — cuBLAS 대비 최대 2.21× 가속, vLLM 대비 평균 1.22× 가속 (ASPLOS '26)
+- [[paper-wiki/papers/understanding-and-optimizing-database-pushdown-on-disaggregated-storage.md|TapDB]] — 스토리지 분리 환경 데이터베이스 푸시다운 최적화 — 기존 솔루션 대비 1.3–2.3× 가속 (ASPLOS '26)
+- [[paper-wiki/papers/straw-stress-aware-wl-based-read-disturbance-management-for-high-density-nand-flash-memory.md|STRAW]] — 고밀도 NAND 플래시 읽기 방해 관리 — RR 오버헤드 88.6% 감소 (ASPLOS '26)
 - [[paper-wiki/papers/3676642-3736119.md|HybridTier]] — 적응형 CXL 메모리 tiering 시스템 — Memtis 대비 29% 성능 향상, 3.2× 빠른 적응 (ASPLOS '25)
 - [[paper-wiki/papers/3779212-3790121.md|CXL Programming Model]] — CXL 위 분산 메모리 위한 최초의 formal programming model (ASPLOS '26)
 - [[paper-wiki/papers/3779212-3790126.md|APT]] — 적응형 확률적 in-DRAM tracker로 DRAM read disturbance 방어 — 0% slowdown, TRH 694 (ASPLOS '26)

@@ -2,6 +2,21 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-30] ingest | ASPLOS 2026 | ZipServ: Fast and Memory-Efficient LLM Inference with Hardware-Aware Lossless Compression
+- Created wiki page: `paper-wiki/papers/zipserv-fast-and-memory-efficient-llm-inference-with-hardware-aware-lossless-compression.md`
+- Updated concepts: llm-inference, compression, gpu
+- Tags: paper, 2026, 2026ASPLOS, topic/llm, topic/compression, topic/gpu
+
+## [2026-06-30] ingest | ASPLOS 2026 | Understanding and Optimizing Database Pushdown on Disaggregated Storage
+- Created wiki page: `paper-wiki/papers/understanding-and-optimizing-database-pushdown-on-disaggregated-storage.md`
+- Updated concepts: database-systems, storage-disaggregation, query-optimization
+- Tags: paper, 2026, 2026ASPLOS, topic/database, topic/storage, topic/disaggregation
+
+## [2026-06-30] ingest | ASPLOS 2026 | STRAW: Stress-Aware WL-Based Read Disturbance Management for High-Density NAND Flash Memory
+- Created wiki page: `paper-wiki/papers/straw-stress-aware-wl-based-read-disturbance-management-for-high-density-nand-flash-memory.md`
+- Updated concepts: nand-flash, ssd, reliability
+- Tags: paper, 2026, 2026ASPLOS, topic/storage, topic/reliability, topic/nand-flash
+
 ## [2026-06-26] ingest | NSDI 2026 | FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference
 - Created wiki page: `paper-wiki/papers/fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md`
 - Updated concepts: llm-inference, gpu
