@@ -27,6 +27,8 @@
 
 ## Papers (Recent)
 
+- [[paper-wiki/papers/pimpal-accelerating-llm-inference-on-edge-devices-via-in-dram-arithmetic-lookup.md|PIMPAL]] — LUT 기반 PIM으로 엣지 기기 sLLM GEMV 가속화 — 기존 LUT 기반 PIM 대비 17.8× 성능, PU 기반 PIM 대비 40% 영역 오버헤드 감소 (DAC '25)
+- [[paper-wiki/papers/llmservingSim-2.0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md|LLMServingSim 2.0]] — 이종적이고 분리된 LLM 서빙 인프라 통합 시뮬레이터 — 평균 오차 0.95%로 성능/메모리/전력 지표 재현 (ISPASS '26)
 - [[paper-wiki/papers/fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md|FastServe]] — LLM 추론을 위한 iteration-level 선점형 스케줄링 — vLLM 대비 최대 6.1× throughput 향상 (NSDI '26)
 - [[paper-wiki/papers/zipserv-fast-and-memory-efficient-llm-inference-with-hardware-aware-lossless-compression.md|ZipServ]] — GPU 아키텍처 공동설계 무손실 압축 LLM 추론 — cuBLAS 대비 최대 2.21× 가속, vLLM 대비 평균 1.22× 가속 (ASPLOS '26)
 - [[paper-wiki/papers/understanding-and-optimizing-database-pushdown-on-disaggregated-storage.md|TapDB]] — 스토리지 분리 환경 데이터베이스 푸시다운 최적화 — 기존 솔루션 대비 1.3–2.3× 가속 (ASPLOS '26)

@@ -1,6 +1,6 @@
 ﻿---
 tags: [concept, pim, near-data, processing-in-memory]
-source_count: 45
+source_count: 46
 last_updated: 2026-06-30
 ---
 
@@ -55,6 +55,7 @@ Processing-in-Memory (PIM) integrates computation logic near or inside memory ar
 - **GenPIP**: In-memory acceleration of genome analysis ([genpip-in-memory-acceleration-of-genome-analysis-via-tight-integration-of-basecalling-and-read-mapping.md])
 - **TRiM**: Enhancing processor-memory interfaces with scalable tensor reduction in memory ([trim-enhancing-processor-memory-interfaces-with-scalable-tensor-reduction-in-memory.md])
 - **PLUTO**: Massively parallel computation in DRAM via lookup tables ([pluto-enabling-massively-parallel-computation-in-dram-via-lookup-tables.md])
+- **PIMPAL**: LUT 기반 PIM으로 sLLM GEMV 가속화 — 서브어레이 수준 병렬 룩업, 지역성 인식 컴퓨팅 매핑(LCM), LUT 집합화(LAG)로 기존 LUT 기반 PIM 대비 17.8배 성능 향상, PU 기반 PIM 대비 40% 영역 오버헤드 감소 ([paper-summaries/2025DAC-summarize/pimpal-accelerating-llm-inference-on-edge-devices-via-in-dram-arithmetic-lookup.md])
 - **Google Workloads for Consumer Devices**: 소비자 디바이스에서의 데이터 이동 병목 해결 — PIM으로 평균 55.4% 에너지 절감, 54.2% 실행 시간 단축 ([paper-summaries/2018ASPLOS-summarize/google-workloads-for-consumer-devices-mitigating-data-movement-bottlenecks.md])
 - **OuterSPACE**: 외적 기반 희소 행렬 곱셈 가속기 — 곱셈과 축적 분리로 중복 메모리 접근 제거, Intel MKL 대비 7.9배, cuSPPARSE 대비 13.0배 속도 향상, 24W에서 2.9 GFLOPS ([paper-summaries/2018HPCA-summarize/outerspace-an-outer-product-based-sparse-matrix-multiplication-accelerator.md])
 

@@ -2,6 +2,16 @@
 
 > Chronological record of wiki operations.
 
+## [2026-06-30] ingest | DAC 2025 | PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup
+- Created wiki page: `paper-wiki/papers/pimpal-accelerating-llm-inference-on-edge-devices-via-in-dram-arithmetic-lookup.md`
+- Updated concepts: pim, llm-inference
+- Tags: paper, 2025, 2025DAC, topic/pim, topic/llm, topic/dram
+
+## [2026-06-30] ingest | ISPASS 2026 | LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure
+- Created wiki page: `paper-wiki/papers/llmservingSim-2.0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md`
+- Updated concepts: llm-inference
+- Tags: paper, 2026, 2026ISPASS, topic/llm, topic/simulator, topic/serving
+
 ## [2026-06-30] ingest | HPCA 2025 | PIMnet: A Domain-Specific Network for Efficient Collective Communication in Scalable PIM
 - Created wiki page: `paper-wiki/papers/pimnet-a-domain-specific-network-for-efficient-collective-communication-in-scalable-pim.md`
 - Updated concepts: pim
