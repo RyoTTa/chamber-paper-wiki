@@ -2,6 +2,17 @@
 
 > Chronological record of wiki operations.
 
+## [2026-07-01] classify | ARXIV | 2605.12433v1 | UPLOADED → 192605ARXIV/
+## [2026-07-01] classify | ISMC | Ambit: In-Memory Accelerator for Bulk Bitwise Operations Using Commodity DRAM Technology | UPLOADED → 2017ISMC/
+## [2026-07-01] classify | ARXIV | 2503.FIGLUT | UPLOADED → 192503ARXIV/
+## [2026-07-01] classify | non-paper | 20260701_082043_ReD-LUT_Reconfigurable_In-DRAM_LUTs_Enabling.pdf | 논문 아님으로 삭제
+## [2026-07-01] classify | unknown | 20260701_082009_Half-DRAM_A_high-bandwidth_and_low-power_DRAM_architecture_from_the_rethinking_of_fine-grained_activation.pdf | 학회 판별 실패 → TEMP/
+## [2026-07-01] classify | unknown | 20260701_082029_AttAcc__Unleashing_the_Power_of_PIM_for_Batched.pdf | 학회 판별 실패 → TEMP/
+## [2026-07-01] classify | unknown | 20260701_082100_AttenPIM_Accelerating_LLM_Attention_with_Dual-mode_GEMV_in_Processing-in-Memory.pdf | 학회 판별 실패 → TEMP/
+## [2026-07-01] classify | unknown | 20260701_082112_REFLEX_Rewrite-Free_Row-Aligned_Sparse_Attention.pdf | 학회 판별 실패 → TEMP/
+
+## [2026-07-01] classify | ISPASS | LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure | TEMP → 2026ISPASS/
+
 ## [2026-07-01] ingest | ISPASS 2026 | LLMServingSim 2.0: A Unified Simulator for Heterogeneous and Disaggregated LLM Serving Infrastructure
 - Created wiki page: `paper-wiki/papers/llmservingsim-2-0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md`
 - Updated concepts: llm-inference
