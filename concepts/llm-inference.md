@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, llm, inference, transformer, kv-cache]
-source_count: 24
-last_updated: 2026-06-30
+source_count: 27
+last_updated: 2026-07-02
 ---
 
 # LLM Inference
@@ -36,6 +36,11 @@ Large Language Model (LLM) inference has become a major research focus as models
 
 ### Edge LLM Inference
 - **PIMPAL**: LUT 기반 PIM으로 엣지 기기에서 sLLM GEMV 가속화 — 서브어레이 수준 병렬 룩업, LCM, LAG로 기존 LUT 기반 PIM 대비 17.8배 성능 향상, PU 기반 PIM 대비 40% 영역 오버헤드 감소 ([paper-summaries/2025DAC-summarize/pimpal-accelerating-llm-inference-on-edge-devices-via-in-dram-arithmetic-lookup.md])
+
+### PIM-based LLM Inference
+- **DAWN**: 청크 기반 워크로드 할당으로 PIM-LM 추론의 재구성 오버헤드와 부하 불균형 해결 — throughput 최대 44.2% (평균 34.8%) 향상 ([paper-summaries/2026IEEECAL-summarize/dawn-efficient-distribution-of-attention-workload-in-pim-enabled-systems-for-llm-inference.md])
+- **REFLEX**: DRAM 행 구조와 sparse attention 정렬로 재쓰기 없는 PIM 디코딩 — 처리량 1.64배, 에너지 효율 1.36배 향상 ([paper-summaries/2026DAC-summarize/reflex-rewrite-free-row-aligned-sparse-attention-for-efficient-llm-execution-on-pim.md])
+- **PIMphony**: TCP/DCS/DPA 공동 설계로 긴 컨텍스트(최대 1M 토큰) PIM-LM 추론 비효율성 해결 — PIM 전용 최대 11.3배 성능 향상 ([paper-summaries/2025HPCA-summarize/pimphony-overcoming-bandwidth-and-capacity-inefficiency-in-pim-based-long-context-llm-inference-system.md])
 
 ### Serving Systems
 - **Splitwise cluster design**: 3-tier machine pools (Prompt, Token, Mixed) with two-level scheduling (CLS + MLS)

@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, pim, near-data, processing-in-memory]
-source_count: 46
-last_updated: 2026-06-30
+source_count: 50
+last_updated: 2026-07-02
 ---
 
 # Processing-in-Memory
@@ -68,6 +68,11 @@ Processing-in-Memory (PIM) integrates computation logic near or inside memory ar
 
 ### PIM Interconnect
 - **PIMnet**: PIM 뱅크 간 직접 연결을 제공하는 도메인 특화 네트워크 — 호스트 CPU 통신 병목 제거, AllReduce 최대 85배 가속, 실제 애플리케이션 11.8배 성능 향상 ([paper-summaries/2025HPCA-summarize/pimnet-a-domain-specific-network-for-efficient-collective-communication-in-scalable-pim.md])
+
+### PIM for Long-Context LLM Inference
+- **DAWN**: 청크 기반 워크로드 할당으로 PIM-LM 추론의 재구성 오버헤드와 부하 불균형 해결 — throughput 최대 44.2% (평균 34.8%) 향상, V 벡터당 쓰기 97% 감소 ([paper-summaries/2026IEEECAL-summarize/dawn-efficient-distribution-of-attention-workload-in-pim-enabled-systems-for-llm-inference.md])
+- **REFLEX**: DRAM 행 구조와 sparse attention 정렬로 재쓰기 없는 PIM 디코딩 — 처리량 1.64배, 에너지 효율 1.36배 향상, 활성화 명령 18% 감소 ([paper-summaries/2026DAC-summarize/reflex-rewrite-free-row-aligned-sparse-attention-for-efficient-llm-execution-on-pim.md])
+- **PIMphony**: TCP/DCS/DPA 공동 설계로 긴 컨텍스트 PIM-LM 추론 비효율성 해결 — PIM 전용 최대 11.3배, xPU+PIM 최대 8.4배 성능 향상 ([paper-summaries/2025HPCA-summarize/pimphony-overcoming-bandwidth-and-capacity-inefficiency-in-pim-based-long-context-llm-inference-system.md])
 
 ### GPU + PIM
 - Improving address translation in multi-GPUs with PIM concepts

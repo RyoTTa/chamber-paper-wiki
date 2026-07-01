@@ -2,6 +2,26 @@
 
 > Chronological record of wiki operations.
 
+## [2026-07-02] ingest | IEEE CAL 2026 | DAWN: Efficient Distribution of Attention Workload in PIM-Enabled Systems for LLM Inference
+- Created wiki page: `paper-wiki/papers/dawn-efficient-distribution-of-attention-workload-in-pim-enabled-systems-for-llm-inference.md`
+- Updated concepts: pim, llm-inference
+- Tags: paper, 2026, 2026IEEECAL, topic/pim, topic/llm, topic/workload-allocation
+
+## [2026-07-02] ingest | DAC 2026 | REFLEX: Rewrite-Free Row-Aligned Sparse Attention for Efficient LLM Execution on PIM
+- Created wiki page: `paper-wiki/papers/reflex-rewrite-free-row-aligned-sparse-attention-for-efficient-llm-execution-on-pim.md`
+- Updated concepts: pim, llm-inference
+- Tags: paper, 2026, 2026DAC, topic/pim, topic/llm, topic/sparse-attention
+
+## [2026-07-02] ingest | arXiv 2026 | Enhancing Instruction Prefetching via Cache and TLB Management (IP-CaT)
+- Created wiki page: `paper-wiki/papers/ip-cat-enhancing-instruction-prefetching-via-cache-and-tlb-management.md`
+- Updated concepts: cache, virtual-memory
+- Tags: paper, 2026, 2026ARXIV, topic/cache, topic/tlb, topic/prefetching
+
+## [2026-07-02] ingest | HPCA 2025 | PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-based Long-Context LLM Inference System
+- Created wiki page: `paper-wiki/papers/pimphony-overcoming-bandwidth-and-capacity-inefficiency-in-pim-based-long-context-llm-inference-system.md`
+- Updated concepts: pim, llm-inference
+- Tags: paper, 2025, 2025HPCA, topic/pim, topic/llm, topic/long-context
+
 ## [2026-07-01] classify | ARXIV | 2605.12433v1 | UPLOADED → 192605ARXIV/
 ## [2026-07-01] classify | ISMC | Ambit: In-Memory Accelerator for Bulk Bitwise Operations Using Commodity DRAM Technology | UPLOADED → 2017ISMC/
 ## [2026-07-01] classify | ARXIV | 2503.FIGLUT | UPLOADED → 192503ARXIV/

@@ -27,6 +27,10 @@
 
 ## Papers (Recent)
 
+- [[paper-wiki/papers/dawn-efficient-distribution-of-attention-workload-in-pim-enabled-systems-for-llm-inference.md|DAWN]] — 청크 기반 워크로드 할당으로 PIM-LM 추론 최적화 — throughput 최대 44.2% 향상, 재구성 오버헤드 97% 감소 (IEEE CAL '26)
+- [[paper-wiki/papers/reflex-rewrite-free-row-aligned-sparse-attention-for-efficient-llm-execution-on-pim.md|REFLEX]] — 재쓰기 없는 행 정렬 sparse attention으로 PIM 디코딩 가속 — 처리량 1.64×, 에너지 효율 1.36× 향상 (DAC '26)
+- [[paper-wiki/papers/ip-cat-enhancing-instruction-prefetching-via-cache-and-tlb-management.md|IP-CaT]] — TLB/캐시 공동 관리로 L1I 프리페칭 극대화 — 0.79KB 오버헤드로 6.1~8.3% geomean 스피드업 (arXiv '26)
+- [[paper-wiki/papers/pimphony-overcoming-bandwidth-and-capacity-inefficiency-in-pim-based-long-context-llm-inference-system.md|PIMphony]] — 긴 컨텍스트 PIM-LM 추론 비효율성 해결 — PIM 전용 최대 11.3× 성능 향상 (HPCA '25)
 - [[paper-wiki/papers/llmservingsim-2-0-a-unified-simulator-for-heterogeneous-and-disaggregated-llm-serving-infrastructure.md|LLMServingSim 2.0]] — 이종적이고 분리된 LLM 서빙 인프라 통합 시뮬레이터 — 평균 오차 0.95%로 성능/메모리/전력 지표 재현, 시뮬레이션 시간 약 10분 (ISPASS '26)
 - [[paper-wiki/papers/pimpal-accelerating-llm-inference-on-edge-devices-via-in-dram-arithmetic-lookup.md|PIMPAL]] — LUT 기반 PIM으로 엣지 기기 sLLM GEMV 가속화 — 기존 LUT 기반 PIM 대비 17.8× 성능, PU 기반 PIM 대비 40% 영역 오버헤드 감소 (DAC '25)
 - [[paper-wiki/papers/fastserve-iteration-level-preemptive-scheduling-for-large-language-model-inference.md|FastServe]] — LLM 추론을 위한 iteration-level 선점형 스케줄링 — vLLM 대비 최대 6.1× throughput 향상 (NSDI '26)

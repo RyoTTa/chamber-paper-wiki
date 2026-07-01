@@ -1,7 +1,7 @@
 ﻿---
 tags: [concept, cache, prefetching, replacement, llc]
-source_count: 17
-last_updated: 2026-06-30
+source_count: 18
+last_updated: 2026-07-02
 ---
 
 # Cache
@@ -16,6 +16,7 @@ Cache research covers caching policy, prefetching, replacement algorithms, and n
 - **Page-Size-Aware Cache Prefetching**: Adapting prefetch granularity to page size ([page-size-aware-cache-prefetching.md])
 - **Agile TLB Prefetching**: Exploiting page table locality for faster address translation ([exploiting-page-table-locality-for-agile-tlb-prefetching.md])
 - TLB prefetching overlaps with cache prefetching in modern prefetcher designs
+- **IP-CaT**: L1I 프리페칭의 주소 변환 지연과 L2 캐시 내 코드 라인의 가변적 재사용 행동을 동시 해결 — tPB(64 엔트리)로 sTLB MPKI 31.6% 감소, TIPRP로 L2 캐시 교체 정책 최적화, 0.79KB 저장 오버헤드로 EPI+IP-CaT 6.1% geomean 스피드업 ([paper-summaries/2026ARXIV-summarize/enhancing-instruction-prefetching-via-cache-and-tlb-management.md])
 
 ### Criticality-Aware Cache Design
 - **CATCH (Criticality Aware Tiered Cache Hierarchy)**: 하드웨어 기반 criticality 감지 + TACT 프리패처로 critical load를 L1 지연 시간으로 서비스 — L2 완전 제거 시 4.5% IPC 향상 + 30% 면적 절감, 기본 8.4~10.3% IPC 향상 ([paper-summaries/2018ISCA-summarize/criticality-aware-tiered-cache-hierarchy-a-fundamental-relook-at-multi-level-cache-hierarchies.md])
