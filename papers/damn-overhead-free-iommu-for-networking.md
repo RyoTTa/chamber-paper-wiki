@@ -76,7 +76,9 @@ summary_path: "../paper-summaries/2018ASPLOS-summarize/damn-overhead-free-iommu-
 
 ## 한계점
 
-- (상세 내용은 요약 파일 참조)
+- zero-copy 경로(sendfile, IP 포워딩)에는 적용 불가 → 기존 DMA API로 폴백
+- 커널 바이패스 애플리케이션(RDMA, DPDK)에는 직접 적용 불가
+- 스토리지 디바이스와는 불호환 → 별도 보호 방식 필요
 
 ## 관련 개념
 

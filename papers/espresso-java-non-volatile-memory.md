@@ -46,16 +46,6 @@ summary_path: "../paper-summaries/2018ASPLOS-summarize/espresso-java-non-volatil
 - 기존 Java 프로그램과의 호환성 유지로 실용적 적용 가능성 입증
 - NVM과 관리형 런타임의 통합을 위한 중요한 발전 방향 제시
 
----
-
-## 규칙 준수
-1. 한국어로 작성 (기술 용어는 영어 원어 병기)
-2. 수치적 결과 포함 (성능 비교 수치)
-3. 모든 Figure/Table 참조 포함 (이 논문의 경우 평가 결과에 대한 구체적 수치 포함)
-4. 각 섹션은 최소 3개 이상의 bullet point
-5. 알고리즘/수식이 있으면 pseudo-code 수준으로 기술
-6. 기존 요약 파일 형식과 퀄리티 준수
-
 ## 주요 결과
 
 - 구현 언어: Java 및 JVM 확장
@@ -67,7 +57,9 @@ summary_path: "../paper-summaries/2018ASPLOS-summarize/espresso-java-non-volatil
 
 ## 한계점
 
-- (상세 내용은 요약 파일 참조)
+- JVM 수정이 필요하여 기존 Java 애플리케이션의 즉시 적용이 어려움
+- NVM의 읽기 성능이 DRAM보다 낮아 읽기 중심 워크로드에서는 제한적
+- 충돌 복구 시 전체 힙 스캔이 필요할 수 있음 (Zeroing Safety 모드)
 
 ## 관련 개념
 

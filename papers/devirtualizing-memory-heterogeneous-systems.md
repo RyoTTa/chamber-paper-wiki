@@ -85,7 +85,9 @@ summary_path: "../paper-summaries/2018ASPLOS-summarize/devirtualizing-memory-in-
 
 ## 한계점
 
-- (상세 내용은 요약 파일 참조)
+- Eager paging으로 인한 메모리 단편화 위험
+- Copy-on-Write 시 identity mapping 깨질 수 있음 (첫 쓰기 시 복사본 생성)
+- Meltdown/Spectre와의 호환성 문제 (preloader가 미세 아키텍처 상태 변경 가능)
 
 ## 관련 개념
 

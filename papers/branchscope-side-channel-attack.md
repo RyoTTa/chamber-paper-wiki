@@ -74,7 +74,9 @@ summary_path: "../paper-summaries/2018ASPLOS-summarize/branchscope-a-new-side-ch
 
 ## 한계점
 
-- (상세 내용은 요약 파일 참조)
+- 고해상도 공격을 위해 피해자 프로세스를 느리게 해야 함 (스케줄링 제어 필요)
+- 랜덤화 코드 블록이 크래시 시 PHT 상태를 초기화할 수 있음
+- Meltdown/Spectre와 같은 추측 실행 공격과의 결합 가능성은 미래 연구 주제
 
 ## 관련 개념
 
